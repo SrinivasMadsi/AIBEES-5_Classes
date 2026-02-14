@@ -1,0 +1,31 @@
+#### ENV ####
+GOOGLE_API_KEY=yourkey
+GCP_PROJECT_ID=project-b629d2c5-6ec0-4b7d-b32
+GCP_REGION=us-central1
+
+poetry add langchain==0.3.27
+poetry add python-dotenv==1.1.1
+poetry add langchain-google-genai==2.1.12
+poetry add streamlit
+
+# Langchain Docs
+https://docs.langchain.com/oss/python/langchain/models#google-gemini
+
+## Google models documentation
+https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-flash
+
+
+### Commands to execute python files in local and GCP
+python <yourfile.py>
+
+# To run streamlit file 
+streamlit run <file.py>  (for local)
+
+# To run streamlit in Google Cloud Shell
+streamlit run 2.llm_with_ui.py \
+--server.port 8080 \
+--server.address 0.0.0.0 \
+--server.enableCORS=false \
+--server.enableXsrfProtection=false \
+--server.enableWebsocketCompression=false
+
