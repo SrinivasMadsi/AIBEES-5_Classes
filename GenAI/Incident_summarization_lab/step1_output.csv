@@ -1,0 +1,75 @@
+Issue_Description,Category,Subcategory,Assignment_group,Resolution_Notes,Incident_Summary
+Performance issue in Oracle DB,Database,Oracle,Service Desk,"Performance issue in Oracle DB due high CPU usage in oracle DB due to inefficient query execution.
+Resolution:
+Execution plans optimized and indexes added.Post implementation system performance is normal.","Category:Database | Sub-Category: Oracle
+---
+**Incident Summary:**
+The Oracle Database environment experienced a significant performance degradation, specifically characterized by elevated CPU utilization. A thorough investigation identified the root cause as inefficient execution plans for critical SQL queries. The resolution involved a multi-faceted approach, including targeted optimization of the problematic query execution plans and the strategic implementation of new database indexes. Post-implementation, comprehensive monitoring confirmed the successful restoration of normal database performance and CPU utilization levels.
+
+**Resolution Steps for Oracle Database Performance Issues due to Inefficient Queries:**
+
+1.  **Identify Performance Bottleneck:**
+    *   Utilize Oracle performance monitoring tools (e.g., AWR reports, ASH reports, `v$session`, `v$sqlarea`) to confirm high CPU usage and pinpoint the specific SQL statements that are consuming the most resources (e.g., high CPU time, elapsed time, logical reads).
+    *   Focus on SQL IDs with significant impact on overall database performance.
+
+2.  **Analyze Inefficient Queries and Execution Plans:**
+    *   For the identified high-impact SQL statements, retrieve and thoroughly analyze their current execution plans using tools like `EXPLAIN PLAN` or `DBMS_XPLAN.DISPLAY_AWR`.
+    *   Look for common inefficiencies such as:
+        *   Full table scans on large tables where an indexed access path would be more efficient.
+        *   Excessive sorts, hash operations, or buffer gets.
+        *   Sub-optimal join methods (e.g., Nested Loops on large datasets without suitable indexes, or Hash Joins consuming excessive memory).
+        *   Inaccurate cardinality estimates leading the optimizer astray.
+
+3.  **Implement Query Optimization Strategies:**
+    *   **Query Rewriting:** Refactor the SQL query logic to improve efficiency. This might involve:
+        *   Simplifying complex subqueries or views.
+        *   Using set operations (`UNION ALL`, `INTERSECT`, `MINUS`) instead of `NOT EXISTS` or `NOT IN` where appropriate.
+        *   Optimizing `WHERE` clause conditions and join predicates for better index utilization.
+    *   **Indexing:** Identify missing, inappropriate, or sub-optimal indexes that could significantly speed up data retrieval and join operations for the problematic queries.
+        *   Create new B-tree, bitmap, or function-based indexes as appropriate.
+        *   Consider composite indexes for multi-column predicates frequently used in `WHERE` clauses or `ORDER BY` clauses.
+        *   Ensure indexes are on columns used in joins, `WHERE` clauses, and `ORDER BY` clauses.
+    *   **Statistics Management:** Ensure that optimizer statistics for all relevant tables, indexes, and columns involved in the problematic queries are up-to-date and accurate. Stale or missing statistics can lead to the optimizer choosing sub-optimal execution plans.
+        *   Manually gather statistics if necessary using `DBMS_STATS.GATHER_TABLE_STATS` or `GATHER_SCHEMA_STATS`.
+    *   **SQL Profile/Baseline (Advanced):** For critical queries where direct code modification or indexing isn't fully effective, consider creating SQL Profiles or SQL Plan Baselines to guide the optimizer towards a known optimal execution plan, even if underlying data or statistics change.
+
+4.  **Test and Validate Optimizations:**
+    *   Apply the proposed changes (query modifications, index creation, statistics updates, SQL profiles) in a controlled test environment (e.g., UAT or Staging) that closely mirrors production.
+    *   Thoroughly test the performance of the optimized queries under representative load and data volumes to validate improvements and ensure no regressions are introduced.
+    *   Compare new execution plans and performance metrics (e.g., elapsed time, CPU time, logical reads) against baseline measurements.
+
+5.  **Monitor Post-Implementation Performance:**
+    *   After deploying the optimizations to the production environment, continuously monitor the Oracle database performance.
+    *   Verify that CPU utilization has normalized and that the specific problematic queries are executing efficiently as expected.
+    *   Keep a close eye on AWR/ASH reports and other performance dashboards for any new bottlenecks or performance anomalies that might arise.
+---"
+webmail unable to access links,Password Reset,Webmail,Service Desk,"Issue:  webmail unable to access links
+
+Resolution
+
+1. Confirm the Email Provider:
+Identified which email service you're using (e.g., Gmail, Outlook, Yahoo).
+
+2. Initiate Password Reset:
+Followed the specific password reset process for user email provider, which will take to recovery link.
+
+Receiving the Email but Can't Access:
+Verified the Link: Ensure the link in the reset email is valid and hasn't expired.
+Clear Browser Cache/Cookies: Cached data can sometimes interfere with the reset process.
+
+Able to open links in emails","Category:Password Reset | Sub-Category: Webmail
+---
+**Incident Summary:**
+A user reported an inability to access links within their webmail application. The resolution process involved initiating a password reset as a primary troubleshooting step, followed by specific diagnostics for issues encountered when accessing links, including the password reset recovery link itself. The incident was successfully resolved by restoring the user's ability to open all links in webmail.
+
+**Resolution Steps:**
+
+*   **Scenario 1: Initial Link Access Issue or General Password Reset Procedure**
+    *   **Confirm Email Provider:** Identify the specific email service the user is utilizing (e.g., Gmail, Outlook, Yahoo).
+    *   **Initiate Password Reset Process:** Guide the user through the standard password reset procedure for their respective email provider. This process typically involves receiving a recovery link via email.
+
+*   **Scenario 2: User Receives Email (e.g., Password Reset Link) but Cannot Access Links Within It**
+    *   **Verify Link Validity:** Ensure the link provided in the email is current and has not expired.
+    *   **Clear Browser Cache and Cookies:** Instruct the user to clear their web browser's cache and cookies. Accumulated browser data can often interfere with proper link functionality and access.
+
+---"

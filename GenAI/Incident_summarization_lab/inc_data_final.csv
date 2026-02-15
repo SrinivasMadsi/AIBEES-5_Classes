@@ -1,0 +1,549 @@
+Issue_Description,Category,Subcategory,Assignment_group,Resolution_Notes
+Performance issue in Oracle DB,Database,Oracle,Service Desk,"Performance issue in Oracle DB due high CPU usage in oracle DB due to inefficient query execution.
+Resolution:
+Execution plans optimized and indexes added.Post implementation system performance is normal."
+webmail unable to access links,Password Reset,Webmail,Service Desk,"Issue:  webmail unable to access links
+
+Resolution
+
+1. Confirm the Email Provider:
+Identified which email service you're using (e.g., Gmail, Outlook, Yahoo).
+
+2. Initiate Password Reset:
+Followed the specific password reset process for user email provider, which will take to recovery link.
+
+Receiving the Email but Can't Access:
+Verified the Link: Ensure the link in the reset email is valid and hasn't expired.
+Clear Browser Cache/Cookies: Cached data can sometimes interfere with the reset process.
+
+Able to open links in emails"
+Poor Merge and Conflict Resolution,Inquiry_Help,Internal Application,Service Desk,Use third-party merge tools for conflict resolution. Migrate to a system like Git or TFVC with built-in merge tracking.
+Lack of Atomic Commits,Inquiry_Help,Internal Application,Service Desk,"Avoid large check-in; break changes into smaller, manageable chunks. Sitch to a modern VCS Like GIT, which guarantees atomic commits"
+File Corruption,Inquiry_Help,Internal Application,Service Desk,Use the Analyze.exe utility (included with sourcesafe) to detect and repair corruption. Restore from a backup if corruption is irreparable. Migrate to a modern version control system
+Laptop keyboard randomly stops working,Hardware,Keyboard,Service Desk,"Troubleshooting steps:
+
+Check for latest windows version, and keyboard drivers on your device
+go to settings> windows update> update
+go to device manager> keyboard> update the drivers
+
+Search for find and fix keyboard problems on your device and run the troubleshooter to see if it can find any issues.
+
+Also, connect an external keyboard to see if it stops working as well, if the external keyboard doesn't stop working then it is a hardware issue and you should get it replaced.
+
+Replace Laptop
+"
+How to setup a Webex meeting,Inquiry_Help,Internal Application,Service Desk,Educated customer on how he can do it going forward and can avoid a call to the IT desk . Customer was happy with the same and no other issues reported .
+subscription Traps,Inquiry_Help,Internal Application,Service Desk,"Use Revo Uninstaller to remove the cleaner and leftover files, Switch to free/open-source alternatives."
+Malware Disguised as cleaners,Inquiry_Help,Internal Application,Service Desk,"Scan with Malwarebytes or HitmanPro, Download tools only from official sites, Stick to reputable software."
+False Positives,Inquiry_Help,Internal Application,Service Desk,"Review files before deletion, Whitelist important folders, Use tools with granular control, Like Treesize to manually inspect storage."
+Performance Degradation,Inquiry_Help,Internal Application,Service Desk,"Uninstall the problematic cleaner, User task Manager to disable unnecessary startup processes, Switch to lightweight tools"
+Registry Corruption,Inquiry_Help,Internal Application,Service Desk,"Avoid registry cleaners unless absolutely necessary, Use system Restore or repair the OS  via sfc/scannow in Command Prompt, Reinstall affected software"
+accidental Deletion of critical files,Inquiry_Help,Internal Application,Service Desk,"Restore from backups, Use system Restore to revert to a previous sate, Avoid aggressive cleaners, stick to trusted tools."
+Outlook is not responding,Software,Email,Service Desk,"Checked network connectivity
+Ran built in outlook repair and also cleared cache.
+Rebuilt the user profile.
+
+User confirmed the issue is resolved
+"
+The OS is experiencing slow performance,Software,Operating System,Service Desk,"Disabled unnecessary startup programs, cleared temp file and cache
+
+User confirmed on the issue resolved"
+MS Teams issue,Software,Operating System,Service Desk,"Issue:  MS Teams issue
+
+Resolution:
+
+>>Force closed Teams from Task Manager and relaunched
+Issue persists
+>>Reinstalled Teams desktop application
+
+User was able to sign-in
+Issue resolved
+"
+Audit Cost and Complexity,Inquiry_Help,Internal Application,Service Desk,Adopt turnkey SAML integrations and compliance tools to reduce audit Preparation time by up to 80%
+Application crashes,Software,Operating System,Service Desk,"1. Checked application logs and reviewed system for error messages
+2. Reinstalled the application updated to latest version
+3. Restarted the laptop and the application is working"
+Third-party system integration challenges,Inquiry_Help,Internal Application,Service Desk,Use pathlock or oracle Enterprise Data management to unify access policies and automate cross-application workflows
+Limited User training and Data literacy,Inquiry_Help,Internal Application,Service Desk,Implement role-based training programs and self-service dashboards to empower users with intuitive reporting tools
+Manual Spreadsheet-Based Audits,Inquiry_Help,Internal Application,Service Desk,"Deploy GRC platforms to automate audit trails, monitor controls and correlate logs into actionable dashboards"
+Lack of Granular Access Certification,Inquiry_Help,Internal Application,Service Desk,Use pathlocks automated certification workflows with did do activity insights to identify and revoke unnecessary access
+integration Broker Configuration Errors,Inquiry_Help,Internal Application,Service Desk,"Validate integration broker settings, ensure node authentication and configure portal context URI with terminating slashes"
+Data Security and Privacy Gaps,Inquiry_Help,Internal Application,Service Desk,"Implement row level security, dynamic dta masking, and activity logging. Tools like pathlock enforce real-time redaction based on risk indicators"
+Branch Issue -  MLA Error,Inquiry_Help,Internal Application,Service Desk,"Branch Issue - Link- MLA Error
+
+- OTHER INFORMATION REQUIRED -
+Application: Link
+Error message if any:
+
+Application Server: Link
+T: Drive Mapping: Yes
+
+
+- TROUBLESHOOTING -
+1) How many users are affected?: 1
+2) Has the user rebooted?: Ye
+3)When is the user getting the error message? Today
+4) Is it only this Workstation or have you tried on another? No
+If user can work on other workstation provide that W/S detail?
+5) N:/ ; M:/ ; T:/ and Q:/ drive are mapped on user's workstation? Yes
+-as all the Drivers are not connected which is causing the MLA Error guided the user to double click on the network drives and service link is working now
+-Link is not getting launched its not showing any error & remapped the T drive and issue got resolved"
+Branch Issue - Application - Won't Launch,Inquiry_Help,Internal Application,Service Desk,"Branch Issue - Application - Won't Launch
+
+- DESCRIPTION -
+
+- OTHER INFORMATION REQUIRED -
+Application: Notyet Know
+Error message if any: Wont Launch
+
+T: Drive Mapping: Yes
+
+- TROUBLESHOOTING -
+1) How many users are affected?: 1
+2) Has the user rebooted?: yes
+3)When is the user getting the error message? Wont launch
+4) Is it only this Workstation or have you tried on another? No
+If user can work on other workstation provide that W/S detail?
+5) Is it issue particular to an application?
+6) Is it issue occurring during a certain time frame/how frequently is the issue occurring?
+7) Has user received this issue before? (Please include previous ticket no. if available)
+8) When did the application last worked for user?
+9) N:/ ; M:/ ; T:/ and Q:/ drive are mapped on user's workstation? T drive
+
+User confirmation received:
+Re Mapped T Drive and resolved the issue for the user"
+inefficient reporting nd Data Extraction,Inquiry_Help,Internal Application,Service Desk,"User BI publisher or kibana for dynamic reporting, optimize SQL queries with indexing, and leverage third-party tools like spreadsheet server for real time GL to subledger drilldowns in excel"
+OS not booting properly or experiencing performance issue,Software,Operating System,Service Desk,"The OS was not booting due to corrupt system file
+Troubleshooting
+Using recovery tools to perform system repair
+Restarted the system post recovery, OS booted successfully, and performance issue were resolved."
+Manual identity and Access governance,Inquiry_Help,Internal Application,Service Desk,"Automate identity governance with tools like path lock, which integrates with PeopleSoft to enforce least-privilege access, automate user onboarding/deprovisioning, and streamline access certifications using risk-based insights"
+Outllok.com integration issues ,Inquiry_Help,Internal Application,Service Desk,Manually configure the account as IMAP/POP3 instead of using Microsoft account sync
+MAPI errors ,Inquiry_Help,Internal Application,Service Desk,Run fixmapi.exe from the office installation directly 
+Duplicate emails or contact  ,Inquiry_Help,Internal Application,Service Desk,Disable sync my device contacts in the teams mobile app
+Search functionality failure ,Inquiry_Help,Internal Application,Service Desk,Rebuilt the search index via control panel> index o[ions> advanced> rebuild 
+Mailbox storage limits ,Inquiry_Help,Internal Application,Service Desk,"Archive old emails to reduce mailbox size, delete unnescessary items and empty the deleted items folder "
+Attachments not opening ,Inquiry_Help,Internal Application,Service Desk,Use OneDrive links for large files instated of direct attachments
+Persistent password prompts,Inquiry_Help,Internal Application,Service Desk,Update accounts settings to ensure remember password is enabled 
+Corrupted or oversized PST files. ,Inquiry_Help,Internal Application,Service Desk,"Use ScanPST.exe to repair minor corruption, Split large PST files by archiving old emails "
+Internet connection issue,Network,IP Address,Service Desk,"Issue: Internet connection issue
+
+Resolution:
+
+Trouble shooting
+
+Reset Network Settings:
+Device: Reset user device's network settings.
+Router: Reset the router to default settings (using the reset button on the back).
+
+Update Firmware/Drivers:
+Router: Update your router's firmware to the latest version.
+Device: Ensured device drivers are up to date.
+
+Issue resolved"
+Outlook send or receive error ,Inquiry_Help,Internal Application,Service Desk,Verify SMTP/POP3 server settings and increase server timeout duration.  
+Outlook crasher on startup,Inquiry_Help,Internal Application,Service Desk,"Launch outlook in safe mode, Disable problematic add-ins via file > options > add-ins > COM  add-ins> GO"
+Viewpoint performance degradation. ,Inquiry_Help,Internal Application,Service Desk,Full remove using specialized tools 
+Viewpoint browser hijacking and updates ,Inquiry_Help,Internal Application,Service Desk,"Di=sable auto updates, manually remove files. "
+Viewpoint privacy data collection ,Inquiry_Help,Internal Application,Service Desk,Remove toolbar and use anti malware tools 
+Infinite spinner in adobe collaborations ,Inquiry_Help,Internal Application,Service Desk,"Opt out during install, unstill via control panel "
+Infinite spinner in adobe collaborations ,Inquiry_Help,Internal Application,Service Desk,Ensure stable internet connection 
+Wifi connectivity,Network,VPN,Service Desk,"Issue:  Wifi connectivity
+
+
+Resolution:
+
+Reset Network Settings:
+Device: Reset user device's network settings.
+
+Check with Your ISP:
+Outages: Contacted internet service provider (ISP) to check for any outages in your area.
+Account Issues: Ensured account is active and there are no billing issues. 
+
+ISP outage
+
+Informed to contact ISP
+Issue resolved.
+"
+Slow rendering in adobe compare tool ,Inquiry_Help,Internal Application,Service Desk,Optimize documents or wait for permeance patch 
+Accessibility issues with JAWS in adobe,Inquiry_Help,Internal Application,Service Desk,"Await adobe fix, use alternative tools "
+Internet is intermittent,Network,VPN,Service Desk,"Issue: Internet is intermittent
+
+Resolution:
+
+1. Verify Physical Connections:
+Check cables:
+Ensured all cables are plugged in securely and are the correct type for the speed you're using. 
+Check hardware:
+Verified all network devices (routers, switches, etc.) are powered on and functioning correctly. 
+
+2. Restart Devices:
+Modem/Router: Unplug and re-plug the modem and router to reset them.
+Restart the device user is using (computer, phone, etc.). 
+
+3. Check Wi-Fi Signal:
+Moved closer to the router:
+User using Wi-Fi, tried moving closer to the router to see if the signal strength improves.
+Used a Wi-Fi extender:
+Using a Wi-Fi extender to boost the signal to areas with poor coverage. 
+
+
+Issue resolved"
+Internet is slow,Network,Wireless,Network,"Issue:  Internet is slow
+
+Resolution:
+
+1. Verify Physical Connections:
+Check cables:
+Ensured all cables are plugged in securely and are the correct type for the speed you're using. 
+Check hardware:
+Verified all network devices (routers, switches, etc.) are powered on and functioning correctly. 
+
+2. Restart Devices:
+Modem/Router: Unplug and re-plug the modem and router to reset them.
+Restart the device user is using (computer, phone, etc.). 
+
+Issue resolved"
+Accessibility limitations ,Inquiry_Help,Internal Application,Service Desk,Upgrade macOS or terminate the process
+Activation failuers ,Inquiry_Help,Internal Application,Service Desk,Connect to the internet and sign in on the startup screen .
+Connectivity Issues,Network,Wireless,Network,"Issue:
+
+Resolution:
+Verify Physical Connections:
+
+Check cables:
+Ensured all cables are plugged in securely and are the correct type for the speed you're using. 
+
+Check hardware:
+Verified all network devices (routers, switches, etc.) are powered on and functioning correctly. 
+
+Issue resolved"
+Crash with pitstop pro plugin,Inquiry_Help,Internal Application,Service Desk,Disable or uninstall the plugin and relaunch acrobat.
+Font Display error,Inquiry_Help,Internal Application,Service Desk,User must Manually update via help> check for updates and restart their systems 
+AI/ML Filter Errors,Inquiry_Help,Internal Application,Service Desk,"Reduce input resolution or batch size, ?Use tensor cores (NVIDIA) or NPUs (Apple M-Series for acceleration"
+Hardware filter failures,Inquiry_Help,Internal Application,Service Desk,"Update monitor firmware via manufacturer tools, Disable third-party color management apps."
+Filter present corruption,Inquiry_Help,Internal Application,Service Desk,"Re-download presets from trusted sources, Manually verify file paths."
+Application Crashes,Inquiry_Help,Internal Application,Service Desk,"Allocate more RAM to the app, ?Use DDU to clean - install GPU drivers"
+Color inacuracies,Inquiry_Help,Internal Application,Service Desk,"Calibrate the display using windows calibration or x_Rite i1Profiler, Disable conflicting HDR/Windows Auto color management"
+Compatibility Issues,Inquiry_Help,Internal Application,Service Desk,"Check app/System requirements for filter compatibility, Reinstall filter plugins, Use compatibility mode for older software"
+Password reset on Active Directory,Password Reset,Reset,Help Desk,"Issue: Password reset on Active Directory
+
+Check what are the applications/systems do you access with the requested account?
+
+Trouble shooting
+
+1. Login to Mi client using your username and RSA (PIN+Token) - Done
+2. For office AD, login to AD-OFF using username and RSA (PIN+Token), Launch Active Directory users and computers and do the reset. - Yes
+3. For production AD, Login to ADS10-PRD using username and RSA (PIN+Token), Launch Active Directory users and computers and do the reset. - NA
+
+User confirmed the issue is resolved"
+Performance Degradation,Inquiry_Help,Internal Application,Service Desk,"Lower filter intensity, Use lightweight alternatives, Upgrade hardware for compute heavy tasks"
+Visual Artifacts or Distortion,Inquiry_Help,Internal Application,Service Desk,"Update GPU drivers(NVIDIA / AMD/Intel, Monitor GPU temps with tools like MSI afterburner or HWMonitor, Reset filter settings to defaults."
+Compliance and Audit Failures,Inquiry_Help,Internal Application,Service Desk,"Use GRC Access Control for SOD Checks, Enable audit logging Via SM19/SM20"
+Performance Bottlenecks,Inquiry_Help,Internal Application,Service Desk,"Archive old documents via SARA, Optimize indexes using DBACOCKPIT"
+Legacy date migration errors ,Inquiry_Help,Internal Application,Service Desk,Use LSMW or Migration cockpit for validation data inputs 
+Authorization and security issues ,Inquiry_Help,Internal Application,Service Desk,"Define roles via PFCG, use SUIM to audit user accesses. "
+ Month end closing delays ,Inquiry_Help,Internal Application,Service Desk,"Schedule background jobs for critical tasks, use FAGL_FC_VAL for fast close optimization. "
+Tax calculation & reporting issues ,Inquiry_Help,Internal Application,Service Desk,"validate TAX settings via FTXP, use J1ID for GST/VAT "
+Currency and exchange rate errors ,Inquiry_Help,Internal Application,Service Desk,Update exchange rates via OB08
+integration with other modules,Inquiry_Help,Internal Application,Service Desk,"Run Reconciliation reports, use RFBILA00 to check FI-CO reconciliation. "
+Data Enty & Validation Issues ,Inquiry_Help,Internal Application,Service Desk,Use FAGL_CHECK_DOCUMENT to validate entries. Define validation rules in OB28
+Configuration error ,Inquiry_Help,Internal Application,Service Desk,"Audi configurations via SPRO, Use OBR2 (check documents splitting)"
+System Freezers/ kernel panic,Inquiry_Help,Internal Application,Service Desk,Run first Aid in Disk utility in recovery mode. reinstall MAC OS via recovery 
+Audio distortion or microphone issues ,Inquiry_Help,Internal Application,Service Desk,"Reset core audio, check system preference, sound for correct input output selections. "
+USB-C port failure ,Inquiry_Help,Internal Application,Service Desk,"Clean ports gently with compressed air or soft brush, test with Apple certifies charger/ cable, reset NVRM "
+MAC software Glitches ,Inquiry_Help,Internal Application,Service Desk,"Boot into safe mode, Reinstall MAC OS via recovery mode. "
+Slow performance ,Inquiry_Help,Internal Application,Service Desk,"Close unused apps, upgrade to 16GB RAM"
+display flickering backlight issues ,Inquiry_Help,Internal Application,Service Desk,"Update macOS, For flexgate apply may replace display for free under quality program. "
+Keyboard and trackpad issues ,Inquiry_Help,Internal Application,Service Desk,"Use compressed air to clean keys, For butterfly keyboard Apple offers free repairs from purchase "
+ Wi-Fi/ Bluetooth connectivity problems ,Inquiry_Help,Internal Application,Service Desk,"Delete Wi-Fi preferences, reset Bluetooth model.  "
+ Battery drain  and charging issues ,Inquiry_Help,Internal Application,Service Desk,"Check battery health, Reset SMC intel and restart M1 M2"
+Overheating and FAN noise ,Inquiry_Help,Internal Application,Service Desk,"Use Activity monitor to kill recourse heavy apps, Reset SMC (Intel models Shift + Control + Option + power) "
+Interoperability Challenges ,Inquiry_Help,Internal Application,Service Desk,Use Microsoft.interop Libraries. 
+End of life risks ,Inquiry_Help,Internal Application,Service Desk,Migrate to .NET 8 (LTS until 2026) or >NET frameworks 4.8.1 ( last supported versions)
+Deployment challenges ,Inquiry_Help,Internal Application,Service Desk,"Use .NET 6+/8+ self-contained deployments (single executable, ~50 MB)"
+Legacy technology limitations ,Inquiry_Help,Internal Application,Service Desk,Replace WEB FPORMS WITH bLAZZOR?asp.net core MVC. 
+Dependency Hell,Inquiry_Help,Internal Application,Service Desk,Use binding Redirects in app.config. Migrate to .
+Unable to connect to VPN network ,Network,VPN,Service Desk,"Disabled  Antivirus program or Windows firewall you may have for temporary purpose. it worked alright , 
+, verify Date and time should be correct and in Sync. 
+
+
+"
+Security Vulnerabilities,Inquiry_Help,Internal Application,Service Desk,"Apply windows updates and patches, Migrate to .NEt 6+/8+ (supports TLS 1.3, modern encryption)."
+Performance Bottlenecks ,Inquiry_Help,Internal Application,Service Desk,Profile with dotmemory/ANTS profiler. Refactor code for using blocks or migrate to .NET 6+
+L Key on the keyboard not responding (Laptop),Hardware,Keyboard,Hardware,"Laptop Keyboard replaced , Tested and all working as expected . no other fault "
+Versioning and compatibility issues,Inquiry_Help,Internal Application,Service Desk,Use <supportedRuntime> tags in config files or migrate to .NetCore/6+/8+(cross-platform and side-by-side friendly)
+Windows and VDI -  Slowness or Freezing issue,Hardware,Mouse,Help Desk,"Windows and VDI -  Slowness or Freezing issue  - 1 user - Remote
+
+User facing Slowness or Freezing issue with the VDI and Outside VDI in the machine
+blank screen error while launching VDI
+
+- OTHER INFORMATION REQUIRED -
+Application: Slowness or Freezing issue
+Error Message (if applicable):  Blank screen 
+Include Screenshot (if applicable)
+Number of users impacted:
+
+- TROUBLESHOOTING -
+Has the user recently rebooted: Yes
+Does the application work on another PC for user: Yes
+Is the issue occurring during a certain time frame: since a long
+Has the user received this issue before: NA
+If so, how frequently is it occurring: yes
+When did the application last work for the user: NA
+
+Closure Reason: as connected with the user and troubleshooted the following,
+cleared temp files and policy updated both inside and outside VDI, the issue is now resolved, hence closing the ticket with user confirmation"
+Lack of Cross platform support,Inquiry_Help,Internal Application,Service Desk," Migrate to .NET 6/8 (cross-platform, lightweight, Abd container friendly)."
+Computer is Over heating,Software,Operating System,Hardware,"Issue:  Computer is Over heating
+
+Resolution:
+Checked for Overheating:
+Inspect Cooling System:
+Ensured fans are working properly, dust and debris are removed from vents and components, and thermal paste is in good condition. 
+Monitor Temperatures:
+Used monitoring software to track CPU, GPU, and other component temperatures. 
+
+Reviewed Event Viewer Logs:
+Access Logs:
+Opened the Event Viewer and filtered critical and error events around the time of the shutdowns.
+Analyze Logs:
+Looked for error codes and descriptions that might indicate the cause of the shutdowns. 
+Restarted computer
+
+Issue resolved
+
+"
+Email Issue - Unable to send the emails,Software,Email,Help Desk,"TROUBLESHOOTING -
+Is anyone else affected: No
+Was the users profile recreated:
+Was the workstation rebooted:
+Check if issue occurs in Webmail:
+Webmail link used:
+Any further troubleshooting done: Cleared some temp files and prefetch from the system
+
+If NDR issue (Determine and clarify if)
+NDR for Internal Mail only / NDR for External Mail only / NDR for Internal and External mail:
+
+Closure confirmation via (Teams/call/chat/email): Call
+Issue Resolved (Yes/No/NA) Yes
+Closure Reason: Removed some space from system "
+Internet Connectivity Issue,Inquiry_Help,Internal Application,Network,"Issue: Internet Connectivity Issue
+
+Resolution:
+Basic Checks:
+Restart your modem and router: This can often resolve temporary glitches and improve performance. 
+Assess the bandwidth: Use a bandwidth check tool to see if your connection is consistently slower than usual. 
+Check for Wi-Fi signal strength: Ensured the device is close to the router and that the signal isn't being obstructed by thick walls or electronic devices. 
+Use wired connections when possible: Tried Ethernet connections which generally more reliable and faster than Wi-Fi. 
+
+Troubleshooting Steps:
+Check for outages: If the problem is widespread, it could be an area outage. 
+Scanned for malware: Malware can drain bandwidth and slow down your connection. 
+Update firmware: Outdated firmware can cause performance issues and slow speeds. 
+Contact your ISP: If the issue persists, your ISP can help diagnose and resolve problems on their end. 
+
+Reduce background apps and processes: Close unnecessary programs and browser tabs to free up bandwidth. 
+Cleared browser cache and history: This can improve browsing speed and reduce lag. 
+Checked for signal interference: Wireless interference can affect Wi-Fi performance, so try changing your Wi-Fi channel or repositioning your router. 
+Manage network congestion: If you have many devices connected, consider limiting usage during peak times or optimizing your network configuration. 
+
+
+Advanced Troubleshooting:
+Consider upgrading your router or ISP plan:
+Older routers or low-bandwidth plans may not be sufficient for your needs. 
+Use a VPN:
+If you're experiencing throttling or network congestion, a VPN can help bypass these issues. 
+Check your network settings:
+Incorrect settings can cause connectivity problems, so reviewed your configuration. 
+"
+WIFI connectivity issue,Inquiry_Help,Internal Application,Help Desk,"Issue: WIFI connectivity issue
+
+Resolution:
+Basic Checks:
+Restart your modem and router: This can often resolve temporary glitches and improve performance. 
+Assess the bandwidth: Use a bandwidth check tool to see if your connection is consistently slower than usual. 
+Check for Wi-Fi signal strength: Ensured the device is close to the router and that the signal isn't being obstructed by thick walls or electronic devices. 
+Use wired connections when possible: Tried Ethernet connections which generally more reliable and faster than Wi-Fi. 
+
+Troubleshooting Steps:
+Check for outages: If the problem is widespread, it could be an area outage. 
+Scanned for malware: Malware can drain bandwidth and slow down your connection. 
+Update firmware: Outdated firmware can cause performance issues and slow speeds. 
+Contact your ISP: If the issue persists, your ISP can help diagnose and resolve problems on their end. 
+
+Reduce background apps and processes: Close unnecessary programs and browser tabs to free up bandwidth. 
+Cleared browser cache and history: This can improve browsing speed and reduce lag. 
+Checked for signal interference: Wireless interference can affect Wi-Fi performance, so try changing your Wi-Fi channel or repositioning your router. 
+Manage network congestion: If you have many devices connected, consider limiting usage during peak times or optimizing your network configuration. 
+"
+Internet is Very Slow,Inquiry_Help,Internal Application,Network,"issue: Internet is Very Slow
+
+Resolution:
+Basic Checks:
+Restart your modem and router: This can often resolve temporary glitches and improve performance. 
+Assess the bandwidth: Use a bandwidth check tool to see if your connection is consistently slower than usual. 
+Check for Wi-Fi signal strength: Ensured the device is close to the router and that the signal isn't being obstructed by thick walls or electronic devices. 
+Use wired connections when possible: Tried Ethernet connections which generally more reliable and faster than Wi-Fi. 
+
+Troubleshooting Steps:
+Check for outages: If the problem is widespread, it could be an area outage. 
+Scanned for malware: Malware can drain bandwidth and slow down your connection. 
+Update firmware: Outdated firmware can cause performance issues and slow speeds. 
+Contact your ISP: If the issue persists, your ISP can help diagnose and resolve problems on their end. 
+"
+Shared mail box- Unable to access the shared mail box-1user-remote,Software,Email,Help Desk,"User called in, and addressed that she is unable to access the sharedmail box in outlook
+-TROUBLESHOOTS-
+>>Outlook--> file--> account settings--> account settings--> double click on mail--> more settings--> advanced--> add--> apply,ok)
+>> Issue resolved"
+Laptop Performance is too slow,Software,Operating System,Network,"Issue: Laptop Performance is too slow
+
+Resolution:
+1. Basic Checks and Restart:
+Restart the computer: A simple restart can clear temporary files and refresh system resources, often resolving minor slowdowns.
+Clean up your desktop: Too many shortcuts and files on your desktop can slow things down. 
+
+2. Software and Drivers:
+Update Windows and drivers: Ensure your operating system and device drivers are up to date, as outdated software can lead to performance issues. 
+Check for software updates: Make sure all installed programs are updated, as updates often include performance improvements and bug fixes. 
+Disabled or removed browser extensions: Excessive extensions can consume resources and slow down your browser. 
+
+3. Disk Space and Memory:
+Free up disk space:
+Low disk space can significantly impact performance. Used Disk Cleanup or removed unnecessary files and programs. 
+Manage startup programs:
+Limit the number of programs that start automatically with Windows to reduce the load on the system. 
+Check RAM usage:
+If running many programs, ensure we have enough RAM to prevent slowdowns. 
+"
+Computer is slow,Software,Operating System,Software,"Issue: Computer is slow
+
+Resolution: 
+1. Basic Checks and Restart:
+Restart the computer: Restart can clear temporary files and refresh system resources, often resolving minor slowdowns.
+Clean up your desktop: Too many shortcuts and files on your desktop can slow things down. 
+
+2. Software and Drivers:
+Update Windows and drivers: Ensured your operating system and device drivers are up to date, as outdated software can lead to performance issues. 
+Check for software updates: Made sure all installed programs are updated, as updates often include performance improvements and bug fixes. 
+Disabled or removed browser extensions: Excessive extensions can consume resources and slow down your browser. "
+Printer in Network - Unable to Print,Network,DNS,Problem Analyzers,"Issue: Printer in Network - Unable to Print
+
+Resolution:
+Network Configuration:
+IP Address: Confirmed the printer has a valid IP address and that it's on the same network as the devices. Access the printer's web interface or control panel to check its IP address. 
+Ping Test: Use the ping command in a terminal window to verify communication with the printer by its IP address. 
+Firewall: Ensure that firewalls on your computer or router are not blocking communication to the printer. 
+
+Printer Settings:
+Driver: Made sure user have the correct printer driver installed on your computer. 
+Print Queue: Checked the print queue on your computer for any stuck or corrupted print jobs. 
+Default Printer: Verified that the printer is set as the default printer on your computer. 
+Web Interface: Checked the printer's web interface for any error messages or alerts. 
+
+
+Advanced Troubleshooting:
+Static IP: If the printer frequently loses its IP address, consider assigning it a static IP address. 
+SNMP: If user having trouble with SNMP, ensured the required dependencies are installed and refer to your printer's documentation. 
+Ports: Ensure that the necessary ports (161, 162, and 9100) are open through your firewall. 
+Factory Reset: As a last resort, you can try a factory reset on the printer. 
+
+Issue fixed."
+Unable to Print using Network Printer,Network,VPN,Network,"Issue:  Unable to Print using Network Printer
+
+Resolution:
+1. Basic Checks:
+Power Cycle: Turn off the printer, unplug it, wait 30 seconds, then plug it back in and turn it on. 
+Restart Router: Unplug the router, wait 30 seconds, then plug it back in. 
+Check Connections: Ensure the printer is securely connected to the network via Ethernet or Wi-Fi, and that the cables are properly plugged in. 
+
+2. Network Configuration:
+IP Address: Confirmed the printer has a valid IP address and that it's on the same network as the devices. Access the printer's web interface or control panel to check its IP address. 
+Ping Test: Use the ping command in a terminal window to verify communication with the printer by its IP address. 
+Firewall: Ensure that firewalls on your computer or router are not blocking communication to the printer. 
+
+3. Printer Settings:
+Driver: Made sure user have the correct printer driver installed on your computer. 
+Print Queue: Checked the print queue on your computer for any stuck or corrupted print jobs. 
+Default Printer: Verified that the printer is set as the default printer on your computer. 
+Web Interface: Checked the printer's web interface for any error messages or alerts. 
+"
+Network Printer issue,Network,Wireless,Problem Analyzers,"Issue: Network Printer issue
+
+Resolution:
+1. Basic Checks:
+Power Cycle: Turn off the printer, unplug it, wait 30 seconds, then plug it back in and turn it on. 
+Restart Router: Unplug the router, wait 30 seconds, then plug it back in. 
+Check Connections: Ensure the printer is securely connected to the network via Ethernet or Wi-Fi, and that the cables are properly plugged in. 
+
+2. Network Configuration:
+IP Address: Confirmed the printer has a valid IP address and that it's on the same network as the devices. Access the printer's web interface or control panel to check its IP address. 
+Ping Test: Use the ping command in a terminal window to verify communication with the printer by its IP address. 
+Firewall: Ensure that firewalls on your computer or router are not blocking communication to the printer. 
+"
+mouse not working in laptop,Hardware,Mouse,Service Desk,"
+1. Basic Checks:
+Physical Connection:
+If using a wired mouse, ensure it's properly plugged into a USB port. Try different ports. 
+Wireless Mouse:
+If it's a wireless mouse, make sure it's turned on, the receiver is connected, and the batteries are good. 
+Restart:
+A simple restart of your laptop can often resolve minor glitches that might be preventing the mouse from working properly. 
+
+2. Driver Issues:
+Update Drivers:
+Outdated or corrupted drivers can cause mouse problems. You can update the drivers through Device Manager. 
+Reinstall Drivers:
+If updating doesn't fix the issue, you can try reinstalling the drivers by uninstalling them in Device Manager and then restarting your computer. 
+Bluetooth Issues:
+If you're using a Bluetooth mouse, make sure your Bluetooth adapter is working, and the mouse is properly paired. You may need to update or reinstall the Bluetooth drivers.
+
+Mouse worked.
+Issue resolved.
+"
+Printer Issue,Hardware,Printer,Service Desk,"Unable to connect or unable to print 
+
+Detailed Troubleshooting Steps:
+1.      1. Check for Error Lights and Messages:
+Look for any error lights or messages displayed on the printer's control panel. 
+2.      2. Clear the Print Queue:
+If print jobs are stuck in the queue, clear them to see if the issue resolves itself.
+3.      3. Restart the Print Spooler:
+Restarting the Print Spooler service can resolve issues with printing queues 
+4.      4. Solidify the Connection:
+Ensure your printer is properly connected to your computer via cable or Wi-Fi. 
+5.      5. Verify Printer Selection:
+Make sure you've selected the correct printer in your software or operating system settings. 
+6.      6. Check Paper and Ink:
+Ensure there is sufficient paper in the tray and that ink cartridges (if applicable) are not empty or low, 
+7.      7. Update or Reinstall Drivers:
+Outdated or corrupted drivers can cause printing problems, so updating or reinstalling them may resolve the issue. 
+8.      8. Test the Printer:
+Try printing a test page to check if the printer is functioning correctly. 
+9.      9. Hard Reset:
+If the problem persists, try a hard reset of the printer by unplugging it for a few minutes. 
+
+Able to print
+"
+Enable the Pop-up Blocker,Inquiry_Help,Internal Application,Network,"Issue:  Enable the Pop-up Blocker
+
+Trouble Shooting Steps:
+1.      Open Internet Explorer: Launch the browser on your computer.
+2.      Access Internet Options: Click on the ""Tools"" menu (or the gear icon) in the upper-right corner, then select ""Internet Options,""
+3.      Go to the Privacy Tab: In the Internet Options window, click on the ""Privacy"" tab.
+4.      Enable the Pop-up Blocker: Under the ""Pop-up Blocker"" section, check the box that says ""Turn on Pop-up Blocker"".
+5.      Confirm Changes: Click ""OK"" to save the settings and enable the pop-up blocker. 
+
+Able to open the webpages without any issues."
+Microsoft teams unable to call,Network,Wireless,Software,"Issue: User unable to make call using MS Teams.
+
+Resolution:
+1. Licensing and Calling Plans:
+2. Permissions and Device Settings:
+3. Network Check
+4. Check for Teams updates: - Ensure latest version of Teams is installed
+5. Restarted PC
+
+Issue resolved
+"
+Unable to connect to email,Inquiry_Help,Email,Network,This incident is resolved.

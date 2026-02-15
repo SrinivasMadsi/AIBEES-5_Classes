@@ -1,0 +1,2068 @@
+Issue_Description,Category,Subcategory,Assignment_group,Resolution_Notes
+Compatibility Issues,Inquiry_Help,Internal Application,,Use SSAPI for limited IDE integration. Migrate to Azure Repos for seamless integration with modern tools.
+No Branching/Merging Support,Inquiry_Help,Internal Application,,"Use labels as pseudo-branches. Migrate to Git, which supports lightweight branching and merging."
+Security Vulnerabilities,Inquiry_Help,Internal Application,,"Restrict repository access via Windows file permissions. Migrate to Azure Devops or GitHub, Which offer role-based access control."
+Performance issue in Oracle DB,Database,Oracle,Service Desk,"Performance issue in Oracle DB due high CPU usage in oracle DB due to inefficient query execution.
+Resolution:
+Execution plans optimized and indexes added.Post implementation system performance is normal."
+Performance issues,Inquiry_Help,Internal Application,,Split large repositories into smaller projects. Use SourceOffsite (Third-Party tool)for better remote access performance. Upgrade to a distributed system like Git or mercurial.
+webmail unable to access links,Password Reset,Webmail,Service Desk,"Issue:  webmail unable to access links
+
+Resolution
+
+1. Confirm the Email Provider:
+Identified which email service you're using (e.g., Gmail, Outlook, Yahoo).
+
+2. Initiate Password Reset:
+Followed the specific password reset process for user email provider, which will take to recovery link.
+
+Receiving the Email but Can't Access:
+Verified the Link: Ensure the link in the reset email is valid and hasn't expired.
+Clear Browser Cache/Cookies: Cached data can sometimes interfere with the reset process.
+
+Able to open links in emails"
+Poor Merge and Conflict Resolution,Inquiry_Help,Internal Application,Service Desk,Use third-party merge tools for conflict resolution. Migrate to a system like Git or TFVC with built-in merge tracking.
+Lack of Atomic Commits,Inquiry_Help,Internal Application,Service Desk,"Avoid large check-in; break changes into smaller, manageable chunks. Sitch to a modern VCS Like GIT, which guarantees atomic commits"
+File Corruption,Inquiry_Help,Internal Application,Service Desk,Use the Analyze.exe utility (included with sourcesafe) to detect and repair corruption. Restore from a backup if corruption is irreparable. Migrate to a modern version control system
+VDI-TCS BOL W10 Desktop Pool-Slowness-1 User-India,Inquiry_Help,,,
+Laptop keyboard randomly stops working,Hardware,Keyboard,Service Desk,"Troubleshooting steps:
+
+Check for latest windows version, and keyboard drivers on your device
+go to settings> windows update> update
+go to device manager> keyboard> update the drivers
+
+Search for find and fix keyboard problems on your device and run the troubleshooter to see if it can find any issues.
+
+Also, connect an external keyboard to see if it stops working as well, if the external keyboard doesn't stop working then it is a hardware issue and you should get it replaced.
+
+Replace Laptop
+"
+VDI Issues - Unable to connect to Server - 1user - Clonakilty Branch County Cork,Inquiry_Help,,,
+VDI  - Delete fx logix profile - 1 User - Remote,Inquiry_Help,,,
+Reset ServiceNow Password ,Password Reset,Reset,,Reset ServiceNow Password 
+Office Software missing in new Laptop,Software,,Service Desk,"Issue:  Office Software missing in new Laptop
+
+Resolution:
+Inserted the disk 
+Installed MS office
+entered Product key
+activated MS office
+
+Able to open all office applications.
+
+Issue resolved"
+VDI - login error: connection failed - 1 user - Remote,Inquiry_Help,,,
+Request for a Wireless Mouse ,Hardware,Mouse,,Helped customer with raising a request for a wireless mouse . 
+Help with resetting ServiceNow Password,Password Reset,Reset,,password reset done on ServiceNow console . 
+Customer is unable to open his Webmail (Outlook) ,Inquiry_Help,Internal Application,,"Used the right link to open the Webmail and it worked fine , Customer was using a wrong link ."
+How to setup a Webex meeting,Inquiry_Help,Internal Application,Service Desk,Educated customer on how he can do it going forward and can avoid a call to the IT desk . Customer was happy with the same and no other issues reported .
+Unable to Browse using Chrome,Inquiry_Help,,,"Issue: Unable to Browse using Chrome
+
+Resolution:
+Checked if user connected to Internet - Yes
+Tried Browsing using Edge - Yes
+
+Tried Browsing using Chrome - unable to browse.
+
+Checked the offline settings in Browser and unchecked it.
+Able to Browse using Chrome.
+
+Issue resolved"
+subscription Traps,Inquiry_Help,Internal Application,Service Desk,"Use Revo Uninstaller to remove the cleaner and leftover files, Switch to free/open-source alternatives."
+Malware Disguised as cleaners,Inquiry_Help,Internal Application,Service Desk,"Scan with Malwarebytes or HitmanPro, Download tools only from official sites, Stick to reputable software."
+False Positives,Inquiry_Help,Internal Application,Service Desk,"Review files before deletion, Whitelist important folders, Use tools with granular control, Like Treesize to manually inspect storage."
+Performance Degradation,Inquiry_Help,Internal Application,Service Desk,"Uninstall the problematic cleaner, User task Manager to disable unnecessary startup processes, Switch to lightweight tools"
+Registry Corruption,Inquiry_Help,Internal Application,Service Desk,"Avoid registry cleaners unless absolutely necessary, Use system Restore or repair the OS  via sfc/scannow in Command Prompt, Reinstall affected software"
+Install MS Office Suite,Inquiry_Help,,,"Steps performed:
+
+>>Shared the executable file to user's system
+
+Took remote
+>>Logged in as admin
+>>Installed Office
+>>After installation, assisted user to sign with Email address on one of the Office applications
+
+User confirmed resolution"
+Assistance with adding shared Calendar,Inquiry_Help,,,"Took Remote
+
+>>Opened Outlook->Calendar
+>>In user's calendar, select Add.
+>>Click Choose From Address Book.
+>>Typed in the  email address of the person user wanted to add
+>>Selected their name.
+>>Clicked OK.
+
+Needed calendar was added "
+Getting unexpected Browser redirects/pop-ups,Inquiry_Help,,,"Steps performed
+
+>>Advised user not to click on any links
+>>Removed recently added browser extensions
+>> Reset browser settings
+
+>>Guided user to raise a Security ticket in-case the issue continues after this.
+
+User confirmed ticket  closure"
+Outlook installation on Mobile device,Inquiry_Help,,,"Steps performed
+
+>> Assisted user to setup MS Authenticator
+>> Installed and configured Company portal app 
+>>Guided user to install Outlook from the Company portal
+>>Assisted user to login to outlook on Mobile device"
+Unable to connect to VPN,Inquiry_Help,,,">> Restarted the VPN application and reconnected to the server
+Issue persisted
+>>Updated Network drivers
+>>User was able to connect to VPN"
+VDI Issue,Network,,Service Desk,"Issue:  VDI issue
+
+Resolution:
+Restarted the machine and VDI, updated the policy multiple times still facing the issue."
+Unable to print,Inquiry_Help,,,"Steps performed
+
+>>Restarted the printer and checked all cable connections
+>>Set printer as the default device
+>>User test printed a paper and was good to go"
+Microphone is not working,Hardware,,Service Desk,"Issue: Microphone is not working
+
+Resolution:
+>>Restarted Laptop
+>>Disabled and enabled microphone for all apps
+>>Uninstalled Audio drivers 
+>> restarted laptop to reinstall drivers
+
+Issue resolved"
+VDI issue,Inquiry_Help,,Service Desk,"VDI Issue - 1 user - remote
+
+User can't able to access the VDI facing freezing issue while accessing post credentials window
+
+Issue/Error message: User can't able to access the VDI facing freezing issue while accessing post credentials window
+
+Issue description: User can't able to access the VDI facing freezing issue while accessing post credentials window
+Troubleshooting steps: Restarted the machine and VDI, updated the policy multiple times still facing the issue.
+Screenshot if any: cant able to capture the screenshot as user is facing the issue while accesing tomVDI
+
+
+Closure confirmation via (Teams/call/chat/email): Email
+
+Issue Resolved (Yes/No/NA) : Yes
+
+Closure Reason: user confirmed that the issue was self resolved, hence closing the ticket with user confirmation"
+Unable to connect to Internet via LAN,Inquiry_Help,,,">> Asked user to change to different port and check
+Issue persisted
+>>Asked user if he could try a different cable
+>>User did not have a different cable
+>>Assisted user to connect to Wi-Fi and replace faulty the LAN cable"
+Unable to connect to Internet,Inquiry_Help,,,">> Checked if user is able to access internet on other devices
+>>User told he's unable to access internet on any device
+>>Guided user to restart Modem and try
+>>User was still unable to connect
+
+Asked user to reach out to Local ISP"
+Application access issue,Inquiry_Help,,Service Desk,"'- DESCRIPTION -
+User name : AXXXA
+
+- OTHER INFORMATION REQUIRED -
+Application: Donttell
+Error Message (if applicable):
+Include Screenshot (if applicable) yes
+Number of users impacted:
+
+- TROUBLESHOOTING -
+Has the user recently rebooted: yes
+Does the application work on another PC for user: Yes
+Is the issue occurring during a certain time frame: NA
+Has the user received this issue before: NA
+If so, how frequently is it occurring: NA
+When did the application last work for the user: Na
+When was the user migrated to Windows 10: NA
+
+-User trying to access it for the first time and user got the user name from the line manager 
+-Tried accessing it from different Laptop/desktop its working fine but only on this laptop its showing the attached error
+-kindly check the access once"
+accidental Deletion of critical files,Inquiry_Help,Internal Application,Service Desk,"Restore from backups, Use system Restore to revert to a previous sate, Avoid aggressive cleaners, stick to trusted tools."
+Outlook is not responding,Software,,Service Desk,"Issue:  Outlook is not responding
+
+Resolution:
+Checked network connectivity
+Ran built in outlook repair and cleared cache.
+Rebuilt the user profile.
+
+User confirmed the issue is resolved"
+Unable to login to VDI,Inquiry_Help,,Service Desk,"Unable to login to VDI
+
+- OTHER INFORMATION REQUIRED -
+Application:
+Error message if any: 
+Application Server: 
+Infocus Server: 
+batchwaste Server:
+T: Drive Mapping:
+
+- TROUBLESHOOTING -
+Reset VDI Fixed the issue"
+Unable to access sharepoint files,Inquiry_Help,,,"Steps performed
+
+>>Checked if user has access
+>>User did not have access
+>> Asked user to request access by reaching out to the sharepoint owner
+
+User good to go
+"
+Unable to access Citrix,Software,,Software,"Issue: Unable to access Citrix
+
+Resolution:
+>> Checked user did not have Citrix receiver
+>> Installed Receiver 4.12 for Windows from www.citrix.com
+>> Ran the exe file and installed Citrix receiver
+>>Assisted user to login to Citrix
+
+Issue Resolved"
+Bitlocker Recovery Key,Inquiry_Help,,,">> Authenticated user with security questions
+>> Provided user with 48 digit bitlocker recovery key
+>>User was able to login to the machine
+
+User good to go"
+Outlook is not responding,Software,Email,Service Desk,"Checked network connectivity
+Ran built in outlook repair and also cleared cache.
+Rebuilt the user profile.
+
+User confirmed the issue is resolved
+"
+Outlook unable to Open,Software,,Service Desk,"Issue:  Outlook unable to Open
+
+Resolution:
+
+Launch Outlook in safe mode by choosing one of the following options.
+In Windows 10, choose Start, type Outlook.exe /safe, and press Enter.
+Close Outlook and then open it normally.
+
+Same issue continues.
+
+Created a new user profile:
+
+Close Outlook.
+Windows 10, choose Start. Type Control Panel and press Enter. Choose User Accounts > Mail > Show Profiles.
+Choose Add, and in the Profile Name box, type a profile name, and then choose OK.
+Entered email address and a password for the primary email account you use in Outlook.
+Once the profile is created, on the Show Profiles dialog, choose Prompt for a profile to be used.
+Start Outlook and choose your new profile.
+
+Opened new profile.
+Able to open outlook.
+Able to send receive email."
+Unable to access Citrix,Inquiry_Help,,,">> Checked user did not have citrix receiver
+>> Installed Receiver 4.12 for Windows from www.citrix.com
+>> Ran the exe file and installed citrix receiver
+>>Assisted user to login to citrix
+"
+The OS is experiencing slow performance,Software,Operating System,Service Desk,"Disabled unnecessary startup programs, cleared temp file and cache
+
+User confirmed on the issue resolved"
+Unable to Launch Outlook,Software,,Service Desk,"Issue: Unable to Launch Outlook
+
+Resolution:
+
+Tried opening Outlook - Unable to open
+
+Opened Task Manager and ended the process. - Done.
+
+Tried opening Outlook - Able to open Outlook.
+
+Restarted Laptop and tried opening Outlook - Able to open Outlook.
+
+Issue resolved"
+Microphone is not working,Inquiry_Help,,,"Steps performed:
+
+>>Restarted Laptop
+>>Disabled and enabled microphone for all apps
+>>Uninstalled Audio drivers 
+>> restarted laptop to reinstall drivers
+
+User good to go"
+MS Teams issue,Software,Operating System,Service Desk,"Issue:  MS Teams issue
+
+Resolution:
+
+>>Force closed Teams from Task Manager and relaunched
+Issue persists
+>>Reinstalled Teams desktop application
+
+User was able to sign-in
+Issue resolved
+"
+System files are missing,Inquiry_Help,,Service Desk,"Identified missing system files through error messages and system diagnosis
+Repaired corrupted or missing files
+Rebooted the system and confirmed that the issue is resolved "
+Teams installation,Inquiry_Help,,,"Steps performed:
+
+>>Login to https://www.microsoft.com/
+>>Download Teams for Windows
+>>Installed the application using executable file
+>>Assisted user to sign-in to Teams
+
+User good to go"
+Unable to access SAP application on VDI,Software,,Service Desk,"Issue: Unable to access SAP application on VDI
+
+Resolution:
+
+>>Saw user had multiple Citrix session
+>>logged off user from Citrix
+>>asked user to sign-in back and check
+
+User able to open all applications in VDI.
+
+Issue resolved"
+Audit Cost and Complexity,Inquiry_Help,Internal Application,Service Desk,Adopt turnkey SAML integrations and compliance tools to reduce audit Preparation time by up to 80%
+Excel Not responding,Software,,Service Desk,"Issue: Excel Not responding
+
+Resolution:
+>> Opened excel in safe mode. was able to open without any issues
+>>Disabled COM-addins
+>>Closed and relaunched excel
+
+Able to open excel and work without any issues
+Issue resolved
+"
+Application crashes,Software,Operating System,Service Desk,"1. Checked application logs and reviewed system for error messages
+2. Reinstalled the application updated to latest version
+3. Restarted the laptop and the application is working"
+Google Chrome,Software,,Service Desk,"Issue: Google Chrome
+
+Resolution:
+
+>>Opened current browser - Edge
+>> went to Google Chrome website.
+>>Clicked Download Chrome and ran the installer.
+>>Followed the on-screen instructions to complete the installation.
+>> Set Chrome as your default browser
+
+Able to open and browse Chrome.
+issue resolved
+"
+Bluetooth headset not working.,Hardware,,,Connected remotely with user and started the Bluetooth services in the console
+Outlook prompting for password multiple times,Inquiry_Help,,,">>Checked user's account was locked
+>>Verified user and unlocked the account
+>>Locked and unlocked the laptop with password
+
+Outlook again prompted for password
+
+checked user's account was locked frequently
+
+cleared saved passwords on credential manager
+tried again
+
+User good to go"
+Domain account Locked,Inquiry_Help,,,"Steps performed:
+
+>>verified user with security questions
+>>Unlocked account from AD
+>> assisted user with password change as requested
+
+User confirmed login"
+Excel freezes/Not responding,Inquiry_Help,,,"Steps performed:
+
+>> Opened excel in safe mode. was able to open without any issues
+>>Disabled COM-addins
+>>Closed and relaunched excel
+
+User could access Excel without any issues"
+Map Network Printer - Map Printer,Hardware,,Help Desk,"User called to get Printer mapped
+Resolution:
+added the MP in the AD profile and requested the user to try to sign in to printer after 2-3 hours"
+Third-party system integration challenges,Inquiry_Help,Internal Application,Service Desk,Use pathlock or oracle Enterprise Data management to unify access policies and automate cross-application workflows
+Unable to access SAP application on VDI,Inquiry_Help,,,"Steps performed:
+
+>>Saw user had multiple citrix session
+>>logged off user from citrix
+>>asked user to sign-in back and check
+
+User was able to access SAP application"
+Limited User training and Data literacy,Inquiry_Help,Internal Application,Service Desk,Implement role-based training programs and self-service dashboards to empower users with intuitive reporting tools
+Windows search is not working,Inquiry_Help,,,"Steps performed:
+
+>> Restarted Laptop
+Issue persists
+
+>>Restarted Windows Search 
+Press the Windows key and search for Services. Hit the Enter key.
+Scroll down to Windows Search, right click and restart.
+
+User checked and confirmed Search now works for him"
+Manual Spreadsheet-Based Audits,Inquiry_Help,Internal Application,Service Desk,"Deploy GRC platforms to automate audit trails, monitor controls and correlate logs into actionable dashboards"
+Lack of Granular Access Certification,Inquiry_Help,Internal Application,Service Desk,Use pathlocks automated certification workflows with did do activity insights to identify and revoke unnecessary access
+Assistance with Webex Istallation,Inquiry_Help,,,"Steps performed:
+
+>>Guided user to go to https://www.webex.com/
+>>Click for Window 64 bit
+>> Run the installer and follow on-screen instructions
+>> Assisted user to sign to Webex
+
+User good to go"
+integration Broker Configuration Errors,Inquiry_Help,Internal Application,Service Desk,"Validate integration broker settings, ensure node authentication and configure portal context URI with terminating slashes"
+Compliance with Evolving Regulations,Inquiry_Help,,Service Desk,"Adopt compliance automation platforms to map controls to regulations, monitor risks, and generate audit-ready evidence"
+Password Reset,Inquiry_Help,,,"Helped user to reset password by using ctrl+alt+delete
+
+Password reset done, hence resolving the ticket."
+Teams Audio is not working,Inquiry_Help,,,"Steps performed:
+
+>>Force closed Teams from Task Manager  and relaunched
+Issue persists
+>>Reinstalled Teams desktop application
+User was able to sign-in
+"
+Data Security and Privacy Gaps,Inquiry_Help,Internal Application,Service Desk,"Implement row level security, dynamic dta masking, and activity logging. Tools like pathlock enforce real-time redaction based on risk indicators"
+Unable to launch Teams,Inquiry_Help,,,"Steps performed:
+
+>>Force closed Teams from Task Manager  and relaunched
+Issue persists
+>>Reinstalled Teams desktop application
+User was able to sign-in
+"
+On-screen Keyboard is not loading,Inquiry_Help,,,"Steps performed:
+
+>> Disabled and enabled  on-screen keyboard
+No go
+>>Asked user to reboot laptop
+Issue persisted
+>>Installed pending upgrades and restarted Laptop
+
+User good to go"
+Branch Issue -  MLA Error,Inquiry_Help,Internal Application,Service Desk,"Branch Issue - Link- MLA Error
+
+- OTHER INFORMATION REQUIRED -
+Application: Link
+Error message if any:
+
+Application Server: Link
+T: Drive Mapping: Yes
+
+
+- TROUBLESHOOTING -
+1) How many users are affected?: 1
+2) Has the user rebooted?: Ye
+3)When is the user getting the error message? Today
+4) Is it only this Workstation or have you tried on another? No
+If user can work on other workstation provide that W/S detail?
+5) N:/ ; M:/ ; T:/ and Q:/ drive are mapped on user's workstation? Yes
+-as all the Drivers are not connected which is causing the MLA Error guided the user to double click on the network drives and service link is working now
+-Link is not getting launched its not showing any error & remapped the T drive and issue got resolved"
+Cursor stuck,Inquiry_Help,,,"Steps performed:
+
+>>Checked if user is using a external mouse
+>>Asked user disconnect the external mouse and try touchpad
+
+Worked fine
+
+>>Guided user to replace faulty mouse"
+Unable to connect to VPN,Inquiry_Help,,,"Steps performed:
+
+>>tried connecting using a different gateway
+issue persisted
+>> Reinstalled Cisco AnyConnect
+
+User was able to connect to VPN"
+Citrix stuck at launching,Inquiry_Help,,,"Steps Performed:
+
+>>Signed out and signed in back
+>>logged off user with citrix sessions
+issue persisted
+
+>>Resinstalled citrix receiver
+User good to go"
+Branch Issue - Application - Won't Launch,Inquiry_Help,Internal Application,Service Desk,"Branch Issue - Application - Won't Launch
+
+- DESCRIPTION -
+
+- OTHER INFORMATION REQUIRED -
+Application: Notyet Know
+Error message if any: Wont Launch
+
+T: Drive Mapping: Yes
+
+- TROUBLESHOOTING -
+1) How many users are affected?: 1
+2) Has the user rebooted?: yes
+3)When is the user getting the error message? Wont launch
+4) Is it only this Workstation or have you tried on another? No
+If user can work on other workstation provide that W/S detail?
+5) Is it issue particular to an application?
+6) Is it issue occurring during a certain time frame/how frequently is the issue occurring?
+7) Has user received this issue before? (Please include previous ticket no. if available)
+8) When did the application last worked for user?
+9) N:/ ; M:/ ; T:/ and Q:/ drive are mapped on user's workstation? T drive
+
+User confirmation received:
+Re Mapped T Drive and resolved the issue for the user"
+Google chrome Installation,Inquiry_Help,,,"Steps performed
+
+Took remote
+>>Opened current browser 
+>> went to Google Chrome website.
+>>Clicked  Download Chrome and ran the installer.
+>>Followed the on-screen instructions to complete the installation.
+>> Set Chrome as your default browser
+
+User confirmed resolution"
+,,,,
+PDF doesn't open properly,Inquiry_Help,,,"Issue: PDF doesn't open properly 
+
+Steps performed:
+
+>>PDF was launching in browser
+>>Installed Adobe Acrobat Reader
+
+User's issue was resolved
+"
+Password reset,Password Reset,Reset,,"Issue:
+
+Resolution:
+
+Confirm the Email Provider:
+Identified which email service you're using (e.g., Gmail, Outlook, Yahoo).  - Outlook
+
+Initiate Password Reset:
+Followed the specific password reset process for user email provider, which will take to recovery link. 
+
+Verify the Email:
+Checked Spam/Junk Folders: The reset email might be mistakenly marked as spam or junk. 
+Checked Mailbox Space: A full mailbox can prevent email delivery. 
+Contact Support: If the email still doesn't arrive, reach out to your email provider's support team. 
+
+Issue resolved.
+"
+inefficient reporting nd Data Extraction,Inquiry_Help,Internal Application,Service Desk,"User BI publisher or kibana for dynamic reporting, optimize SQL queries with indexing, and leverage third-party tools like spreadsheet server for real time GL to subledger drilldowns in excel"
+MFA Setup,Inquiry_Help,,,"Steps performed:
+
+>>Provided the link http://aka.ms/mfasetup and asked the user to open it on the browser.
+ >>Asked user to open MS Authenticator on phone
+>>Guided user To scan QR code from the mobile and ass Work account
+
+User good to go
+"
+Set default browser as Chrome,Inquiry_Help,,,"Issue:Set default browser as Chrome
+
+Steps performed:
+
+>>Guided user to set chrome as default browser under Default apps
+>>Also,  assisted user to set Adove as default for .pdf files
+
+User good to go."
+OS not booting properly or experiencing performance issue,Software,Operating System,Service Desk,"The OS was not booting due to corrupt system file
+Troubleshooting
+Using recovery tools to perform system repair
+Restarted the system post recovery, OS booted successfully, and performance issue were resolved."
+Citrix wont launch,Inquiry_Help,,,"Steps performed
+
+>>tried sign-out and sign-in
+issue persists
+>>Logged off user from citrix sessions
+
+User good to go"
+Manual identity and Access governance,Inquiry_Help,Internal Application,Service Desk,"Automate identity governance with tools like path lock, which integrates with PeopleSoft to enforce least-privilege access, automate user onboarding/deprovisioning, and streamline access certifications using risk-based insights"
+Low Disk space,Inquiry_Help,,,"Steps Performed:
+
+>> Cleared temp files
+>>Guided user to remove files/folder he no longer needs
+>>Ran a disk cleanup
+
+User good to go"
+Outllok.com integration issues ,Inquiry_Help,Internal Application,Service Desk,Manually configure the account as IMAP/POP3 instead of using Microsoft account sync
+Monitor issue,Inquiry_Help,,Service Desk,"Issue:  Monitor issue
+
+Resolution:
+>> Check for cable connections
+>>Updated the display drivers
+>>Enabled second monitor
+
+User confirmed ; issue resolved"
+MAPI errors ,Inquiry_Help,Internal Application,Service Desk,Run fixmapi.exe from the office installation directly 
+Duplicate emails or contact  ,Inquiry_Help,Internal Application,Service Desk,Disable sync my device contacts in the teams mobile app
+Laptop wont charge,Inquiry_Help,,,"Steps performed:
+
+>>Asked user to unplug the charger, restart Laptop and try
+issue continued
+>> Asked user to undock from the docking station and try
+
+User confirmed his Laptop charges now
+Guided user to replace docking station."
+Unable to obtain or conflict with IP address causing network connectivity issues,Network,IP Address,,"1. Identify the Type issue - DHCP failure
+2. Basic troubleshooting to be done
+3. Check IP configuration and Renew IP"
+Search functionality failure ,Inquiry_Help,Internal Application,Service Desk,Rebuilt the search index via control panel> index o[ions> advanced> rebuild 
+Email password reset,Password Reset,Reset,,"Issue: Email password reset
+
+Resolution:
+
+Confirmed the Email Provider:
+Identified which email service you're using (e.g., Gmail, Outlook, Yahoo). 
+
+Initiated Password Reset:
+Followed the specific password reset process for user email provider, which will take to recovery link. 
+
+Able to open email and able to send receive emails
+Issue resolved"
+External Monitor not detected,Inquiry_Help,,,"Steps preformed :
+
+>> Check for cable connections
+>>Updated the display drivers
+>>Enabled second monitor
+
+User confirmed resolution and was good to go"
+Mailbox storage limits ,Inquiry_Help,Internal Application,Service Desk,"Archive old emails to reduce mailbox size, delete unnescessary items and empty the deleted items folder "
+Attachments not opening ,Inquiry_Help,Internal Application,Service Desk,Use OneDrive links for large files instated of direct attachments
+Keyboard not responding,Hardware,Keyboard,,Reconnected the device and checked for driver updates. Performed a system restart and verified functionality. Keyboard is now working as expected
+L Key on the keyboard not responding (Laptop),Inquiry_Help,,Service Desk,Issue resolved by replacing the keyboard 
+Persistent password prompts,Inquiry_Help,Internal Application,Service Desk,Update accounts settings to ensure remember password is enabled 
+USB Device not recognized,Inquiry_Help,,,"Steps Performed:
+
+>> Asked user to reboot Laptop 
+Issue persisted
+>>Tried with different USB ports
+
+User was able to connect his USB device
+"
+Corrupted or oversized PST files. ,Inquiry_Help,Internal Application,Service Desk,"Use ScanPST.exe to repair minor corruption, Split large PST files by archiving old emails "
+Internet connection issue,Network,IP Address,Service Desk,"Issue: Internet connection issue
+
+Resolution:
+
+Trouble shooting
+
+Reset Network Settings:
+Device: Reset user device's network settings.
+Router: Reset the router to default settings (using the reset button on the back).
+
+Update Firmware/Drivers:
+Router: Update your router's firmware to the latest version.
+Device: Ensured device drivers are up to date.
+
+Issue resolved"
+Outlook send or receive error ,Inquiry_Help,Internal Application,Service Desk,Verify SMTP/POP3 server settings and increase server timeout duration.  
+Antivirus not functioning properly,Inquiry_Help,Antivirus,,Antivirus issue resolved by updating virus definitions and restarting the antivirus service.Verified that real-time protection is active and system scan completed successfully. No further issues observed.
+Application Wont launch on edge,Inquiry_Help,,,"Steps performed:
+
+>>tried launching on other browsers
+>>Reset Edge settings
+User was able to launch application as usual
+
+User confirmed ticket resolution."
+Outlook crasher on startup,Inquiry_Help,Internal Application,Service Desk,"Launch outlook in safe mode, Disable problematic add-ins via file > options > add-ins > COM  add-ins> GO"
+Viewpoint performance degradation. ,Inquiry_Help,Internal Application,Service Desk,Full remove using specialized tools 
+Viewpoint browser hijacking and updates ,Inquiry_Help,Internal Application,Service Desk,"Di=sable auto updates, manually remove files. "
+Viewpoint privacy data collection ,Inquiry_Help,Internal Application,Service Desk,Remove toolbar and use anti malware tools 
+Infinite spinner in adobe collaborations ,Inquiry_Help,Internal Application,Service Desk,"Opt out during install, unstill via control panel "
+Infinite spinner in adobe collaborations ,Inquiry_Help,Internal Application,Service Desk,Ensure stable internet connection 
+Wifi connectivity,Network,VPN,Service Desk,"Issue:  Wifi connectivity
+
+
+Resolution:
+
+Reset Network Settings:
+Device: Reset user device's network settings.
+
+Check with Your ISP:
+Outages: Contacted internet service provider (ISP) to check for any outages in your area.
+Account Issues: Ensured account is active and there are no billing issues. 
+
+ISP outage
+
+Informed to contact ISP
+Issue resolved.
+"
+Slow rendering in adobe compare tool ,Inquiry_Help,Internal Application,Service Desk,Optimize documents or wait for permeance patch 
+Unable to open any webpage,Inquiry_Help,Internal Application,,"Issue:  Unable to open any webpage
+
+Resolution:
+
+1. Verify Physical Connections:
+Check cables:
+Ensured all cables are plugged in securely and are the correct type for the speed you're using. 
+Check hardware:
+Verified all network devices (routers, switches, etc.) are powered on and functioning correctly. 
+
+2. Restart Devices:
+Modem/Router: Unplug and re-plug the modem and router to reset them.
+Restart the device user is using (computer, phone, etc.). 
+
+3. Check Wi-Fi Signal:
+Moved closer to the router:
+User using Wi-Fi, tried moving closer to the router to see if the signal strength improves.
+Used a Wi-Fi extender:
+Using a Wi-Fi extender to boost the signal to areas with poor coverage. 
+
+4. Reset Network Settings:
+Device: Reset user device's network settings.
+Router: Reset the router to default settings (using the reset button on the back). 
+
+Issue resolved
+"
+Accessibility issues with JAWS in adobe,Inquiry_Help,Internal Application,Service Desk,"Await adobe fix, use alternative tools "
+Internet is intermittent,Network,VPN,Service Desk,"Issue: Internet is intermittent
+
+Resolution:
+
+1. Verify Physical Connections:
+Check cables:
+Ensured all cables are plugged in securely and are the correct type for the speed you're using. 
+Check hardware:
+Verified all network devices (routers, switches, etc.) are powered on and functioning correctly. 
+
+2. Restart Devices:
+Modem/Router: Unplug and re-plug the modem and router to reset them.
+Restart the device user is using (computer, phone, etc.). 
+
+3. Check Wi-Fi Signal:
+Moved closer to the router:
+User using Wi-Fi, tried moving closer to the router to see if the signal strength improves.
+Used a Wi-Fi extender:
+Using a Wi-Fi extender to boost the signal to areas with poor coverage. 
+
+
+Issue resolved"
+Internet is slow,Network,Wireless,Network,"Issue:  Internet is slow
+
+Resolution:
+
+1. Verify Physical Connections:
+Check cables:
+Ensured all cables are plugged in securely and are the correct type for the speed you're using. 
+Check hardware:
+Verified all network devices (routers, switches, etc.) are powered on and functioning correctly. 
+
+2. Restart Devices:
+Modem/Router: Unplug and re-plug the modem and router to reset them.
+Restart the device user is using (computer, phone, etc.). 
+
+Issue resolved"
+Accessibility limitations ,Inquiry_Help,Internal Application,Service Desk,Upgrade macOS or terminate the process
+Activation failuers ,Inquiry_Help,Internal Application,Service Desk,Connect to the internet and sign in on the startup screen .
+Connectivity Issues,Network,Wireless,Network,"Issue:
+
+Resolution:
+Verify Physical Connections:
+
+Check cables:
+Ensured all cables are plugged in securely and are the correct type for the speed you're using. 
+
+Check hardware:
+Verified all network devices (routers, switches, etc.) are powered on and functioning correctly. 
+
+Issue resolved"
+Crash with pitstop pro plugin,Inquiry_Help,Internal Application,Service Desk,Disable or uninstall the plugin and relaunch acrobat.
+Font Display error,Inquiry_Help,Internal Application,Service Desk,User must Manually update via help> check for updates and restart their systems 
+AI/ML Filter Errors,Inquiry_Help,Internal Application,Service Desk,"Reduce input resolution or batch size, ?Use tensor cores (NVIDIA) or NPUs (Apple M-Series for acceleration"
+Hardware filter failures,Inquiry_Help,Internal Application,Service Desk,"Update monitor firmware via manufacturer tools, Disable third-party color management apps."
+Filter present corruption,Inquiry_Help,Internal Application,Service Desk,"Re-download presets from trusted sources, Manually verify file paths."
+Application Crashes,Inquiry_Help,Internal Application,Service Desk,"Allocate more RAM to the app, ?Use DDU to clean - install GPU drivers"
+,,,,
+Color inacuracies,Inquiry_Help,Internal Application,Service Desk,"Calibrate the display using windows calibration or x_Rite i1Profiler, Disable conflicting HDR/Windows Auto color management"
+Compatibility Issues,Inquiry_Help,Internal Application,Service Desk,"Check app/System requirements for filter compatibility, Reinstall filter plugins, Use compatibility mode for older software"
+Password reset on Active Directory,Password Reset,Reset,Help Desk,"Issue: Password reset on Active Directory
+
+Check what are the applications/systems do you access with the requested account?
+
+Trouble shooting
+
+1. Login to Mi client using your username and RSA (PIN+Token) - Done
+2. For office AD, login to AD-OFF using username and RSA (PIN+Token), Launch Active Directory users and computers and do the reset. - Yes
+3. For production AD, Login to ADS10-PRD using username and RSA (PIN+Token), Launch Active Directory users and computers and do the reset. - NA
+
+User confirmed the issue is resolved"
+Performance Degradation,Inquiry_Help,Internal Application,Service Desk,"Lower filter intensity, Use lightweight alternatives, Upgrade hardware for compute heavy tasks"
+Visual Artifacts or Distortion,Inquiry_Help,Internal Application,Service Desk,"Update GPU drivers(NVIDIA / AMD/Intel, Monitor GPU temps with tools like MSI afterburner or HWMonitor, Reset filter settings to defaults."
+Compliance and Audit Failures,Inquiry_Help,Internal Application,Service Desk,"Use GRC Access Control for SOD Checks, Enable audit logging Via SM19/SM20"
+Performance Bottlenecks,Inquiry_Help,Internal Application,Service Desk,"Archive old documents via SARA, Optimize indexes using DBACOCKPIT"
+Legacy date migration errors ,Inquiry_Help,Internal Application,Service Desk,Use LSMW or Migration cockpit for validation data inputs 
+Authorization and security issues ,Inquiry_Help,Internal Application,Service Desk,"Define roles via PFCG, use SUIM to audit user accesses. "
+ Month end closing delays ,Inquiry_Help,Internal Application,Service Desk,"Schedule background jobs for critical tasks, use FAGL_FC_VAL for fast close optimization. "
+Tax calculation & reporting issues ,Inquiry_Help,Internal Application,Service Desk,"validate TAX settings via FTXP, use J1ID for GST/VAT "
+Currency and exchange rate errors ,Inquiry_Help,Internal Application,Service Desk,Update exchange rates via OB08
+integration with other modules,Inquiry_Help,Internal Application,Service Desk,"Run Reconciliation reports, use RFBILA00 to check FI-CO reconciliation. "
+Data Enty & Validation Issues ,Inquiry_Help,Internal Application,Service Desk,Use FAGL_CHECK_DOCUMENT to validate entries. Define validation rules in OB28
+Configuration error ,Inquiry_Help,Internal Application,Service Desk,"Audi configurations via SPRO, Use OBR2 (check documents splitting)"
+System Freezers/ kernel panic,Inquiry_Help,Internal Application,Service Desk,Run first Aid in Disk utility in recovery mode. reinstall MAC OS via recovery 
+Audio distortion or microphone issues ,Inquiry_Help,Internal Application,Service Desk,"Reset core audio, check system preference, sound for correct input output selections. "
+USB-C port failure ,Inquiry_Help,Internal Application,Service Desk,"Clean ports gently with compressed air or soft brush, test with Apple certifies charger/ cable, reset NVRM "
+MAC software Glitches ,Inquiry_Help,Internal Application,Service Desk,"Boot into safe mode, Reinstall MAC OS via recovery mode. "
+Slow performance ,Inquiry_Help,Internal Application,Service Desk,"Close unused apps, upgrade to 16GB RAM"
+display flickering backlight issues ,Inquiry_Help,Internal Application,Service Desk,"Update macOS, For flexgate apply may replace display for free under quality program. "
+Keyboard and trackpad issues ,Inquiry_Help,Internal Application,Service Desk,"Use compressed air to clean keys, For butterfly keyboard Apple offers free repairs from purchase "
+ Wi-Fi/ Bluetooth connectivity problems ,Inquiry_Help,Internal Application,Service Desk,"Delete Wi-Fi preferences, reset Bluetooth model.  "
+ Battery drain  and charging issues ,Inquiry_Help,Internal Application,Service Desk,"Check battery health, Reset SMC intel and restart M1 M2"
+Overheating and FAN noise ,Inquiry_Help,Internal Application,Service Desk,"Use Activity monitor to kill recourse heavy apps, Reset SMC (Intel models Shift + Control + Option + power) "
+Interoperability Challenges ,Inquiry_Help,Internal Application,Service Desk,Use Microsoft.interop Libraries. 
+End of life risks ,Inquiry_Help,Internal Application,Service Desk,Migrate to .NET 8 (LTS until 2026) or >NET frameworks 4.8.1 ( last supported versions)
+Deployment challenges ,Inquiry_Help,Internal Application,Service Desk,"Use .NET 6+/8+ self-contained deployments (single executable, ~50 MB)"
+Legacy technology limitations ,Inquiry_Help,Internal Application,Service Desk,Replace WEB FPORMS WITH bLAZZOR?asp.net core MVC. 
+Dependency Hell,Inquiry_Help,Internal Application,Service Desk,Use binding Redirects in app.config. Migrate to .
+Unable to connect to VPN network ,Network,VPN,Service Desk,"Disabled  Antivirus program or Windows firewall you may have for temporary purpose. it worked alright , 
+, verify Date and time should be correct and in Sync. 
+
+
+"
+Security Vulnerabilities,Inquiry_Help,Internal Application,Service Desk,"Apply windows updates and patches, Migrate to .NEt 6+/8+ (supports TLS 1.3, modern encryption)."
+Performance Bottlenecks ,Inquiry_Help,Internal Application,Service Desk,Profile with dotmemory/ANTS profiler. Refactor code for using blocks or migrate to .NET 6+
+L Key on the keyboard not responding (Laptop),Hardware,Keyboard,Hardware,"Laptop Keyboard replaced , Tested and all working as expected . no other fault "
+Wifi shows no internet,Network,Wireless,,"Issue: Wifi shows no internet
+
+
+Troubleshooting :
+--> restarted the computer
+--> tried with different network
+--> tried forgetting the network
+
+Affected Users: <50% (one or two users)
+--> user was confused about workstation id so he provided device name and service tag
+--> windows 10 , laptop user
+
+Used right user name and password,
+Able to connect to wifi"
+Issue with connecting to Wireless network ,Inquiry_Help,Email,,"Helped customer Reinstall the wireless drivers and restarted the laptop , issue is now resolved and no further assistance required, closing the ticket after confirmation from the customer "
+Browser Issue,Inquiry_Help,,,"Issue: Browser Not Loading Pages
+
+Trouble shooting:
+
+>>Clear the browser’s cache and cookies
+>>Closed and relaunched the browser
+
+User tried accessing 2-3 browser pages and was good to go
+
+Issue resolved"
+Versioning and compatibility issues,Inquiry_Help,Internal Application,Service Desk,Use <supportedRuntime> tags in config files or migrate to .NetCore/6+/8+(cross-platform and side-by-side friendly)
+MFA setup issue,Software,,MFA Exempted User Group,"Issue:  MFA setup issue
+
+Resolution:
+
+OTHER INFORMATION REQUIRED -
+Application:
+Error message if any:
+Workstation ID / IP Address / Pingable:
+T: Drive Mapping: Re-mapped
+
+- TROUBLESHOOTING -
+
+Provided TAP pass
+Guided user to set up MFA from aka.ms/mysecurityinfo
+
+Issue resolved
+"
+VDI - Slowness ,Inquiry_Help,,Creator Studio Users,"Issue: VDI - Slowness 
+
+Resolution:
+- TROUBLESHOOTING -
+Has the user recently rebooted: Yes
+Does the application work on another PC for user: Yes
+Is the issue occurring during a certain time frame: since a long
+Has the user received this issue before: NA
+If so, how frequently is it occurring: yes
+When did the application last work for the user: NA
+
+Closure Reason: as connected with the user and troubleshooted the following,
+cleared temp files and policy updated both inside and outside VDI, the issue is now resolved, hence closing the ticket with user confirmation
+"
+Workstation Issue - system   issue,Inquiry_Help,,Help Desk,"Workstation Issue - system   issue-1 user- Remote
+
+- DESCRIPTION -user system not performing correctly. Seems some battery low issue.
+
+- OTHER INFORMATION REQUIRED -
+Location: Remote
+Error Message (if applicable):user not able to login to the system. Battery completely dead state even though user plugin to the charger
+Include Screenshot (if applicable)na
+Number of users impacted:1
+
+
+- TROUBLESHOOTING -
+Cashier Posts - [] Number of cashier posts working / [] Number of cashier posts not working
+Make - [] HP [] Dell
+Type - [] Desktop [Y] Laptop
+[Y] Confirm the user has checked power supply
+[Y] Confirm the user can logon to Windows
+[Y] Confirm user has rebooted
+[] Confirm user has checked LAN cable and functional link lights
+[Y] Confirm there is power to the monitor
+[Y] Confirm user has checked connections
+
+
+User Confirmation
+
+>issue resolved when user changed the cable"
+Restore the documents,Software,,,"Issue:
+
+Resolution:
+
+Trouble shooting
+
+System File Integrity:
+Run DISM (Deployment Image Servicing and Management):
+This tool can help repair corrupted system files by using Windows Update as a source.
+Run SFC (System File Checker):
+Use the command SFC /scan now in an elevated command prompt to scan and repair corrupted system files.
+Check Disk:
+Use the check disk command in PowerShell or Command Prompt to analyze a disk for errors and correct them.
+
+Check File Recovery Settings:
+Ensure that File History or other file recovery features are enabled and properly configured.
+
+Use Windows File Recovery:
+This tool can help recover files that have been accidentally deleted or corrupted.
+
+Open and Repair:
+In Office applications (Word, Excel, PowerPoint), try the ""Open and Repair"" function for corrupted files.
+
+Restore from Backup:
+If you have a backup, restore your files from it.
+
+Restored files,
+issue resolved."
+Multiple Issue's - Drive sync - system slowness/freezing,Software,,,"Multiple Issue's - Drive sync - system slowness - freezing- 1 user - remote
+
+User facing an issue with cisco anyconnect
+user facing slowness issue
+drives are not synced
+
+Issue/Error message: internet blocked
+Best contact method: Call
+
+Issue description: User facing an issue with cisco anyconnect,user facing slowness issue ,drives are not synced
+Troubleshooting steps: all drives remapped, temp cleared, policy updated, connected with RAS- SBL
+Screenshot if any: NA
+
+Closure Reason: as connected with user and troubleshooted the following,
+all drives remapped, temp cleared, policy updated, connected with RAS- SBL
+the issue is now resolved, hence closing the ticket with user confirmation
+"
+Restore missing Files,Software,Operating System,,"Issue: Restore missing Files
+
+Resolution:
+System File Integrity:
+Run DISM (Deployment Image Servicing and Management):
+This tool can help repair corrupted system files by using Windows Update as a source.
+
+Run SFC (System File Checker):
+Use the command SFC /scan now in an elevated command prompt to scan and repair corrupted system files.
+
+Check Disk:
+Use the check disk command in PowerShell or Command Prompt to analyze a disk for errors and correct them.
+
+Issue resolved"
+USB Issue,Hardware,Disk,,"Issue: USB Issue
+
+Resolution:
+
+1. Restart your computer:
+Still the same issue.
+2. Try a different USB port:
+Change the USB port, and it same.
+
+3. Use a different USB cable:
+A faulty cable can also be the cause, so try connecting your device with a different USB cable.
+4. Test on another computer:
+connect the USB device to a different computer to determine if the issue is with the device itself or with your computer's USB ports. 
+
+
+5. Check Device Manager:
+• Open Device Manager (search for it in the Start menu). 
+• Expand ""Universal Serial Bus controllers"". 
+• Look for any yellow exclamation marks next to USB device entries. These indicate driver problems. 
+• You can try uninstalling and reinstalling the drivers for the problematic devices by right-clicking and selecting ""Uninstall"". 
+• Reconnecting the USB device after uninstalling should prompt Windows to automatically reinstall the drivers. 
+
+
+6. Update USB drivers:
+• If you suspect outdated or corrupted drivers, you can try updating them. 
+• In Device Manager, find the problematic device, right-click on it, and select ""Update driver"". 
+• Choose ""Search automatically for drivers"". 
+• If Windows have no driver, download the specific driver
+
+Issue resolved"
+Windows and VDI -  Slowness or Freezing issue,Hardware,Mouse,Help Desk,"Windows and VDI -  Slowness or Freezing issue  - 1 user - Remote
+
+User facing Slowness or Freezing issue with the VDI and Outside VDI in the machine
+blank screen error while launching VDI
+
+- OTHER INFORMATION REQUIRED -
+Application: Slowness or Freezing issue
+Error Message (if applicable):  Blank screen 
+Include Screenshot (if applicable)
+Number of users impacted:
+
+- TROUBLESHOOTING -
+Has the user recently rebooted: Yes
+Does the application work on another PC for user: Yes
+Is the issue occurring during a certain time frame: since a long
+Has the user received this issue before: NA
+If so, how frequently is it occurring: yes
+When did the application last work for the user: NA
+
+Closure Reason: as connected with the user and troubleshooted the following,
+cleared temp files and policy updated both inside and outside VDI, the issue is now resolved, hence closing the ticket with user confirmation"
+MFAsetup ,Inquiry_Help,,,"'- DESCRIPTION -
+
+MFA setup
+
+- OTHER INFORMATION REQUIRED -
+Application: 
+Error message if any: 
+Workstation ID / IP Address / Pingable:
+T: Drive Mapping: Re-mapped
+
+- TROUBLESHOOTING -
+
+Provided TAP pass
+Guided user to set up MFA from aka.ms/mysecurityinfo"
+Blue Screen error,Inquiry_Help,,,"Issue: Blue Screen
+
+Steps Performed:
+
+>>Guided user to perform a hard reboot
+Press and hold Laptop power button for 10secs and trying to power on the laptop
+Issue persisted
+
+>>Advised user to remove all peripheral devices and try booting up the laptop
+
+User was good to login"
+Email Issue - unable to send/receive the emails,Inquiry_Help,,,"Email Issue - unable to send/receive the emails - 1 user - remote
+
+- DESCRIPTION -
+
+- OTHER INFORMATION REQUIRED -
+Error message if any: unable to send/receive the emails 
+Workstation ID / IP Address / Pingable:
+(Use webmail if not dedicated workstation)
+
+- Mailbox Details -
+O365 / Email Server:
+Email Address:  kevin.duffy@northridgeuk.com
+Mailbox Size (for on-prem):
+
+- TROUBLESHOOTING -
+Is anyone else affected: No
+Was the users profile recreated: Yes
+Was the workstation rebooted: Yes
+Check if issue occurs in Webmail: Yes, it works
+Webmail link used: yes
+Any further troubleshooting done: Cleared the ost files and sent a test mail"
+Workstation Issue - Not Able To Access Anything,Network,,,"
+- TROUBLESHOOTING -
+Requested User to Hard Reboot the PC
+User Hard Rebooted the PC 
+Still facing the same error
+Took user on remote
+Resolved the issue for the user
+User Acknowledged and agreed for ticket closure
+"
+Lack of Cross platform support,Inquiry_Help,Internal Application,Service Desk," Migrate to .NET 6/8 (cross-platform, lightweight, Abd container friendly)."
+Wifi showing no internet ,Inquiry_Help,,,"wifi showing no internet - 1 user - remot
+
+- DESCRIPTION -
+
+Issue :
+--> issues with laptop
+--> not connecting to internet
+--> connecting to wifi , showing no internet
+--> wifi getting connected to all the personal devices , just not connecting on the BOI laptop
+--> user was able to access internet earlier this morning
+Troubleshooting :
+--> restarted the computer
+--> tried with different network
+--> tried forgetting the network
+
+
+Affected Users: <50% (one or two users)
+
+--> user was confused about workstation id so he provided device name and service tag
+--> windows 10 , laptop user"
+Internet Issue - not able to access internet due to firewall block,Inquiry_Help,,,"Internet Issue - not able to access internet due to firewall block- 1 user- remote
+
+- DESCRIPTION -
+
+- OTHER INFORMATION REQUIRED -
+Error Message: not able to access internet due to firewall block
+Weblink: 
+Web Browser:
+Workstation ID / IP Address / Pingable: 
+
+- USER AVAILABILITY -
+Preferred Contact Number: +353 12345343
+Days Available: NA
+Time Available: NA
+
+- TROUBLESHOOTING -
+Has the user been able to access the Internet previously:  Yes
+Is the ""Internet Basic"" group added to the user profile: Yes 
+Can other users access the Website:  yes"
+Browser Not Loading Pages,Inquiry_Help,,,"
+Steps Performed:
+
+>>Clear the browser’s cache and cookies
+>>Closed and relaunched the browser
+
+User tried accessing  2-3 browser pages and was good to go"
+USB unable to deduct devices,Hardware,Disk,,"Issue: USB unable to deduct devices
+
+Troubleshooting Steps:
+1. Restart your computer:
+Still the same issue.
+2. Try a different USB port:
+Change the USB port, still the same
+
+3. Use a different USB cable:
+A faulty cable can also be the cause, so try connecting your device with a different USB cable.
+4. Test on another computer:
+connect the USB device to a different computer to determine if the issue is with the device itself or with your computer's USB ports.
+
+Worked fine, informed user to contact manufacturer.
+Issue resolved.
+"
+Blue Screen of Death,Inquiry_Help,,,"Steps Performed:
+
+>>Guided user to perform a hard reboot
+Press and hold Laptop power button for 10secs and trying to power on the laptop
+Issue persisted
+
+>>Advised user to remove all peripheral devices and try booting up the laptop
+
+User was good to login"
+USB not working,Hardware,,,"Issue: USB not working
+
+Resolution:
+1. Restart your computer:
+Still the same issue.
+
+2. Try a different USB port:
+Change the USB port, and it works. 
+
+Educated user to contact manufacturer for UBS port issue.
+"
+Unable to Open Files Outside VDI ,Inquiry_Help,,,"VDI Issues - Unable to Open Files Outside VDI - 1 or 2
+
+- DESCRIPTION - On Drive Sync Issue
+
+- OTHER INFORMATION REQUIRED -
+Error message if any: Unable to Open Files Outside VDI
+Workstation ID / IP Address / Pingable:
+
+- USER AVAILABILITY -
+Preferred Contact Number: 1233333222
+Days Available: Mon-Fri
+Time Available: 07:15 AM - 3 : 15 PM (Irish Time)
+
+- TROUBLESHOOTING -
+1) Has the user successfully logged in to their VDI desktop? (If yes, go to question 3, else go to question 2) - Yes
+2) Has the user managed to connect to the Bank's Citrix Login screen? Yes
+3) How many attempts were needed to login? 1
+4) Post login, is the VDI running slow or disconnecting often? (If disconnecting often, does it reconnect to their VDI Desktop automatically or not)?
+5) If slow, which application is slow?
+6) If slow, in response to what exact action, is it becoming slow?
+7) Has the user rebooted? Yes
+Additional Troubleshooting:
+
+Took remote session of the suer
+Turned on the OneDrive Sync outside the VDI and inside the VDI and the issue was resolved
+User agreed for the ticket closure"
+USB Not working,Inquiry_Help,,,"Issue:  USB Not working
+
+Troubleshooting Steps:
+1. Restart your computer:
+Still the same issue.
+2. Try a different USB port:
+Change the USB port, same issue
+
+3. Use a different USB cable:
+A faulty cable can also be the cause, so try connecting your device with a different USB cable.
+4. Test on another computer:
+connect the USB device to a different computer to determine if the issue is with the device itself or with your computer's USB ports.
+
+Check Device Manager:
+• Open Device Manager (search for it in the Start menu).
+• Expand ""Universal Serial Bus controllers"".
+• Look for any yellow exclamation marks next to USB device entries. These indicate driver problems.
+• You can try uninstalling and reinstalling the drivers for the problematic devices by right-clicking and selecting ""Uninstall"".
+• Reconnecting the USB device after uninstalling should prompt Windows to automatically reinstall the drivers.
+
+It worked
+issue resolved
+"
+Map a network printer,Inquiry_Help,,,"Steps performed:
+>>Open Printers & Scanners
+>>Click Add a printer
+>>The printer used wanted to map was not listed, hence chose The printer that I want isn't listed.
+>>Selected Add a local printer or network printer with manual settings
+>>Chose port and Enter printer's IP
+>>Installed Printer driver following on-screen instructions 
+>>Printer installation was complete
+>>User tried to test print a test page 
+
+User good to go"
+MFA - Need to set up MFA to new phone,Inquiry_Help,,,"User called in for MFA set-up into his new phone
+>> MFA set-up has done
+>> User confirmed that he is able to use MFA"
+Screen flickers,Inquiry_Help,,,"Steps Performed:
+
+>>Updated  display driver
+>>Installed pending Windows upgrades
+>>Restarted Laptop
+
+User confirmed issue is resolved"
+Laptop-Fan is too loud,Inquiry_Help,,,"Steps Performed:
+>>Checked CPU usage
+Since the usage was normal, suspected a faulty fan issue
+
+>>Redirected user to onsite technician"
+Laptop Shut downs and restarts again and again,Hardware,Disk,Recommendation Admin,
+VDI -Account Unlock ,Inquiry_Help,,Help Desk,"Closure confirmation via (Teams/call/chat/email): Call
+
+Issue Resolved (Yes/No/NA) yes
+
+Closure Reason: the line manager approval has been received, and the account has been unlocked, the issue is now resolved, Hence closing the ticket with user confirmation"
+System Reboots often,Hardware,CPU,,"Issue: System Reboots often
+
+Resolution:
+Checked for Overheating:
+Inspect Cooling System:
+Ensured fans are working properly, dust and debris are removed from vents and components, and thermal paste is in good condition. 
+Monitor Temperatures:
+Used monitoring software to track CPU, GPU, and other component temperatures. 
+
+Reviewed Event Viewer Logs:
+Access Logs:
+Opened the Event Viewer and filtered critical and error events around the time of the shutdowns.
+Analyze Logs:
+Looked for error codes and descriptions that might indicate the cause of the shutdowns.
+
+Updated Drivers and BIOS:
+Update Drivers:
+Device Manager was update or roll back drivers, especially for graphics cards and network adapters.
+Update BIOS:
+Checked the manufacturer's website for the latest BIOS version and install it if necessary.
+
+Checked for Hardware Issues:
+Power Supply: Ensured the power supply is functioning correctly and provides enough power for your components. 
+RAM: Test RAM for errors using tools like MemTest86. 
+Motherboard: Visually inspected the motherboard for any signs of damage or blown capacitors. 
+
+informed to contact manufacturer and replace Mother Board
+Issue resolved"
+Laptop battery drains quickly,Inquiry_Help,,,"Steps Performed:
+
+>>Check the screen brightness 
+Go to Settings > System > Display 
+Adjust the screen brightness to the desired level.
+
+>>Removed unwanted peripheral devices 
+
+>>Ended un-necessary programs/applications 
+
+Guided user to monitor for battery performance after the troubleshooting was performed."
+printer issue- user unable to print attachment from the printer ,Inquiry_Help,,,"'- TROUBLESHOOTING -
+
+Make -[] Dell
+Type - [] Desktop
+remapped the printer for the user and the issue got fixed"
+Computer shutting down often,Hardware,,Hardware,"Issue:  Computer shutting down often
+
+Resolution:
+Checked for Overheating:
+Inspect Cooling System:
+Ensured fans are working properly, dust and debris are removed from vents and components, and thermal paste is in good condition. 
+Monitor Temperatures:
+Used monitoring software to track CPU, GPU, and other component temperatures.
+
+Reviewed Event Viewer Logs:
+Access Logs:
+Opened the Event Viewer and filtered critical and error events around the time of the shutdowns.
+Analyze Logs:
+Looked for error codes and descriptions that might indicate the cause of the shutdowns.
+
+Updated Drivers and BIOS:
+Update Drivers:
+Device Manager was update or roll back drivers, especially for graphics cards and network adapters.
+Update BIOS:
+Checked the manufacturer's website for the latest BIOS version and installed. 
+
+Issue Resolved
+"
+Assistance with connecting a bluetooth device-Mouse,Inquiry_Help,,,"Steps Performed:
+
+>>Go to Start >>Settings >> Devices   
+
+>>Navigate to Bluetooth tab   and Click on Add Bluetooth or other devices   
+
+>>Chose Bluetooth from 'Add a device' window  
+
+>>Chose the device you want to pair and click on it  
+
+The bluetooth device-Mouse was paired
+
+User good to go"
+Computer is Over heating,Software,Operating System,Hardware,"Issue:  Computer is Over heating
+
+Resolution:
+Checked for Overheating:
+Inspect Cooling System:
+Ensured fans are working properly, dust and debris are removed from vents and components, and thermal paste is in good condition. 
+Monitor Temperatures:
+Used monitoring software to track CPU, GPU, and other component temperatures. 
+
+Reviewed Event Viewer Logs:
+Access Logs:
+Opened the Event Viewer and filtered critical and error events around the time of the shutdowns.
+Analyze Logs:
+Looked for error codes and descriptions that might indicate the cause of the shutdowns. 
+Restarted computer
+
+Issue resolved
+
+"
+Teams - Mic issue,Software,,Help Desk,Closure Reason: As per the user confirmation over the work notes in the ticket by mentioning Issue has been resolved automatically. Hence closing the ticket.
+VDI -Teams - unable to locate the application,Inquiry_Help,,,"VDI -Teams - unable to locate the application
+user unable to locate and launch Teams application
+
+Phone number: 0894918229
+Issue/Error message: Unable to launch the application
+Best contact method: Call and Teams
+Available time: 9-5 Irish
+Issue description: user unable to locate and launch Teams application
+
+Troubleshooting steps: web teams working fine, Manual Teams installation completed from Web
+Screenshot if any: NA
+
+Closure Reason: as connected with the user, web teams working fine, Manual Teams installation from the Web, the issue is now resolved, hence closing the ticket with user confirmation"
+Audio drivers are missing,Inquiry_Help,,,"Steps Performed:
+
+>>Updated Drivers
+?Expand Sound, video and game controllers Under Device Manager
+Right Click and Choose ?Update driver and then click Search automatically for updated driver software
+
+Issue persisted
+
+>>Reinstalled the drivers
+Expand Sound, video and game controllers Under Device Manager
+Right Click and choose ?Uninstall device, select the?Delete the driver software for this device?check box, and then select?Uninstall. 
+After this, advised user to restart device to reinstall drivers automatically
+
+After restart, user checked and confirmed Audio works fine
+ Closing the ticket"
+Laptop is running slow,Inquiry_Help,,,"Steps Performed:
+
+>>Restarted Laptop
+User was still unable to access multiple apps
+
+>>Cleared temp files
+
+>>Ran Disk Cleanup 
+
+>>Installed pending Windows upgrades
+
+User checked and confirmed the Laptop is running fine."
+Outlook Working Offline Error,Inquiry_Help,,Help Desk,"Steps performed:
+
+>> Ensured user is connected to Network.
+
+>> On Send/Receive tab, Disabled Work Offline
+Issue persisted
+
+>>Sign out and Sign-in to Outlook
+File->Account->SignOut->Close Outlook and Sign In
+
+User was now able to see the Emails loading
+User confirmed resolution provided and ticket closure"
+Received Spam Emails,Inquiry_Help,,Help Desk,"Steps Performed:
+
+>>Advised user not to click on any links
+>>Assisted user to report the Phishing attempt from Outlook Ribbon
+
+Outlook>>Report-> Report Phishing"
+Excel crashes,Inquiry_Help,,Help Desk,"Steps Performed:
+
+>> Force closed Excel from Task Manager 
+
+>>Restarted Laptop and relaunched Excel
+ Issue persists
+
+>>Updated Excel to a recent version
+File > Account > Update Options > Update Now
+
+Closed and relaunched Excel
+User was able to access excel without any issues."
+Email Issue - Unable to send the emails,Software,Email,Help Desk,"TROUBLESHOOTING -
+Is anyone else affected: No
+Was the users profile recreated:
+Was the workstation rebooted:
+Check if issue occurs in Webmail:
+Webmail link used:
+Any further troubleshooting done: Cleared some temp files and prefetch from the system
+
+If NDR issue (Determine and clarify if)
+NDR for Internal Mail only / NDR for External Mail only / NDR for Internal and External mail:
+
+Closure confirmation via (Teams/call/chat/email): Call
+Issue Resolved (Yes/No/NA) Yes
+Closure Reason: Removed some space from system "
+Unable to connect to Wifi,Inquiry_Help,,Help Desk,"Steps Performed:
+>>Check Device Settings
+Ensured Wi-Fi is turned On and Airplane is Off
+
+>>Advised user to restart Modem and Laptop
+User was still facing the issue
+
+>>Guided to user ""Forget"" the network and try reconnecting. 
+User was able to connect back to Wi-Fi 
+
+User checked a few websites to confirm connectivity.
+User was able to access all the sites and was good to go"
+Outlook - Shared mailbox missing,Software,Email,," TROUBLESHOOTING -
+Took a remote session
+Re-added shared mailbox
+was able to see shared mailbox
+Resolving this ticket"
+Internet Connectivity Issue,Inquiry_Help,Internal Application,Network,"Issue: Internet Connectivity Issue
+
+Resolution:
+Basic Checks:
+Restart your modem and router: This can often resolve temporary glitches and improve performance. 
+Assess the bandwidth: Use a bandwidth check tool to see if your connection is consistently slower than usual. 
+Check for Wi-Fi signal strength: Ensured the device is close to the router and that the signal isn't being obstructed by thick walls or electronic devices. 
+Use wired connections when possible: Tried Ethernet connections which generally more reliable and faster than Wi-Fi. 
+
+Troubleshooting Steps:
+Check for outages: If the problem is widespread, it could be an area outage. 
+Scanned for malware: Malware can drain bandwidth and slow down your connection. 
+Update firmware: Outdated firmware can cause performance issues and slow speeds. 
+Contact your ISP: If the issue persists, your ISP can help diagnose and resolve problems on their end. 
+
+Reduce background apps and processes: Close unnecessary programs and browser tabs to free up bandwidth. 
+Cleared browser cache and history: This can improve browsing speed and reduce lag. 
+Checked for signal interference: Wireless interference can affect Wi-Fi performance, so try changing your Wi-Fi channel or repositioning your router. 
+Manage network congestion: If you have many devices connected, consider limiting usage during peak times or optimizing your network configuration. 
+
+
+Advanced Troubleshooting:
+Consider upgrading your router or ISP plan:
+Older routers or low-bandwidth plans may not be sufficient for your needs. 
+Use a VPN:
+If you're experiencing throttling or network congestion, a VPN can help bypass these issues. 
+Check your network settings:
+Incorrect settings can cause connectivity problems, so reviewed your configuration. 
+"
+WIFI connectivity issue,Inquiry_Help,Internal Application,Help Desk,"Issue: WIFI connectivity issue
+
+Resolution:
+Basic Checks:
+Restart your modem and router: This can often resolve temporary glitches and improve performance. 
+Assess the bandwidth: Use a bandwidth check tool to see if your connection is consistently slower than usual. 
+Check for Wi-Fi signal strength: Ensured the device is close to the router and that the signal isn't being obstructed by thick walls or electronic devices. 
+Use wired connections when possible: Tried Ethernet connections which generally more reliable and faster than Wi-Fi. 
+
+Troubleshooting Steps:
+Check for outages: If the problem is widespread, it could be an area outage. 
+Scanned for malware: Malware can drain bandwidth and slow down your connection. 
+Update firmware: Outdated firmware can cause performance issues and slow speeds. 
+Contact your ISP: If the issue persists, your ISP can help diagnose and resolve problems on their end. 
+
+Reduce background apps and processes: Close unnecessary programs and browser tabs to free up bandwidth. 
+Cleared browser cache and history: This can improve browsing speed and reduce lag. 
+Checked for signal interference: Wireless interference can affect Wi-Fi performance, so try changing your Wi-Fi channel or repositioning your router. 
+Manage network congestion: If you have many devices connected, consider limiting usage during peak times or optimizing your network configuration. 
+"
+Internet is Very Slow,Inquiry_Help,Internal Application,Network,"issue: Internet is Very Slow
+
+Resolution:
+Basic Checks:
+Restart your modem and router: This can often resolve temporary glitches and improve performance. 
+Assess the bandwidth: Use a bandwidth check tool to see if your connection is consistently slower than usual. 
+Check for Wi-Fi signal strength: Ensured the device is close to the router and that the signal isn't being obstructed by thick walls or electronic devices. 
+Use wired connections when possible: Tried Ethernet connections which generally more reliable and faster than Wi-Fi. 
+
+Troubleshooting Steps:
+Check for outages: If the problem is widespread, it could be an area outage. 
+Scanned for malware: Malware can drain bandwidth and slow down your connection. 
+Update firmware: Outdated firmware can cause performance issues and slow speeds. 
+Contact your ISP: If the issue persists, your ISP can help diagnose and resolve problems on their end. 
+"
+Shared mail box- Unable to access the shared mail box-1user-remote,Software,Email,Help Desk,"User called in, and addressed that she is unable to access the sharedmail box in outlook
+-TROUBLESHOOTS-
+>>Outlook--> file--> account settings--> account settings--> double click on mail--> more settings--> advanced--> add--> apply,ok)
+>> Issue resolved"
+All systems in Network are slow ,Network,IP Address,,"Issue:  All systems in Network are slow 
+
+Resolution:
+1. Basic Checks and Restart:
+Restart the computer: A simple restart can clear temporary files and refresh system resources, often resolving minor slowdowns.
+Clean up your desktop: Too many shortcuts and files on your desktop can slow things down. 
+
+2. Software and Drivers:
+Update Windows and drivers: Ensure your operating system and device drivers are up to date, as outdated software can lead to performance issues. 
+Check for software updates: Make sure all installed programs are updated, as updates often include performance improvements and bug fixes. 
+Disabled or removed browser extensions: Excessive extensions can consume resources and slow down your browser. 
+
+3. Disk Space and Memory:
+Free up disk space:
+Low disk space can significantly impact performance. Used Disk Cleanup or removed unnecessary files and programs. 
+Manage startup programs:
+Limit the number of programs that start automatically with Windows to reduce the load on the system. 
+Check RAM usage:
+If running many programs, ensure we have enough RAM to prevent slowdowns. 
+"
+Computer is too slow,Hardware,CPU,,"Issue:  Computer is too slow
+
+Resolution:
+1. Basic Checks and Restart:
+Restart the computer: A simple restart can clear temporary files and refresh system resources, often resolving minor slowdowns.
+Clean up your desktop: Too many shortcuts and files on your desktop can slow things down. 
+
+2. Software and Drivers:
+Update Windows and drivers: Ensure your operating system and device drivers are up to date, as outdated software can lead to performance issues. 
+Check for software updates: Make sure all installed programs are updated, as updates often include performance improvements and bug fixes. 
+Disabled or removed browser extensions: Excessive extensions can consume resources and slow down your browser. 
+
+3. Disk Space and Memory:
+Free up disk space:
+Low disk space can significantly impact performance. Used Disk Cleanup or removed unnecessary files and programs. 
+Manage startup programs:
+Limit the number of programs that start automatically with Windows to reduce the load on the system. 
+Check RAM usage:
+If running many programs, ensure we have enough RAM to prevent slowdowns. 
+
+4. Task Manager and Background Processes:
+Use Task Manager: Identify any programs consuming excessive resources, such as CPU or memory, and end them if necessary.
+Monitor background processes: Close any unnecessary background processes that may be hogging resources. 
+
+5. Malware and Viruses:
+Scan for malware: Use of antivirus software to scan for and remove any infections.
+Checked for suspicious processes: Be wary of processes that consume a lot of resources and seem unfamiliar. 
+"
+Desktop is slow in opening any applications,Hardware,CPU,,"Issue:  Desktop is slow in opening any applications
+
+Resolution:
+
+1. Basic Checks and Restart:
+Restart the computer: A simple restart can clear temporary files and refresh system resources, often resolving minor slowdowns.
+Clean up your desktop: Too many shortcuts and files on your desktop can slow things down. 
+
+2. Software and Drivers:
+Update Windows and drivers: Ensure your operating system and device drivers are up to date, as outdated software can lead to performance issues. 
+Check for software updates: Make sure all installed programs are updated, as updates often include performance improvements and bug fixes. 
+Disabled or removed browser extensions: Excessive extensions can consume resources and slow down your browser. 
+
+3. Disk Space and Memory:
+Free up disk space:
+Low disk space can significantly impact performance. Used Disk Cleanup or removed unnecessary files and programs. 
+Manage startup programs:
+Limit the number of programs that start automatically with Windows to reduce the load on the system. 
+Check RAM usage:
+If running many programs, ensure we have enough RAM to prevent slowdowns. 
+
+4. Task Manager and Background Processes:
+Use Task Manager: Identify any programs consuming excessive resources, such as CPU or memory, and end them if necessary.
+Monitor background processes: Close any unnecessary background processes that may be hogging resources. 
+"
+Laptop Performance is too slow,Software,Operating System,Network,"Issue: Laptop Performance is too slow
+
+Resolution:
+1. Basic Checks and Restart:
+Restart the computer: A simple restart can clear temporary files and refresh system resources, often resolving minor slowdowns.
+Clean up your desktop: Too many shortcuts and files on your desktop can slow things down. 
+
+2. Software and Drivers:
+Update Windows and drivers: Ensure your operating system and device drivers are up to date, as outdated software can lead to performance issues. 
+Check for software updates: Make sure all installed programs are updated, as updates often include performance improvements and bug fixes. 
+Disabled or removed browser extensions: Excessive extensions can consume resources and slow down your browser. 
+
+3. Disk Space and Memory:
+Free up disk space:
+Low disk space can significantly impact performance. Used Disk Cleanup or removed unnecessary files and programs. 
+Manage startup programs:
+Limit the number of programs that start automatically with Windows to reduce the load on the system. 
+Check RAM usage:
+If running many programs, ensure we have enough RAM to prevent slowdowns. 
+"
+Computer is slow,Software,Operating System,Software,"Issue: Computer is slow
+
+Resolution: 
+1. Basic Checks and Restart:
+Restart the computer: Restart can clear temporary files and refresh system resources, often resolving minor slowdowns.
+Clean up your desktop: Too many shortcuts and files on your desktop can slow things down. 
+
+2. Software and Drivers:
+Update Windows and drivers: Ensured your operating system and device drivers are up to date, as outdated software can lead to performance issues. 
+Check for software updates: Made sure all installed programs are updated, as updates often include performance improvements and bug fixes. 
+Disabled or removed browser extensions: Excessive extensions can consume resources and slow down your browser. "
+Printer in Network - Unable to Print,Network,DNS,Problem Analyzers,"Issue: Printer in Network - Unable to Print
+
+Resolution:
+Network Configuration:
+IP Address: Confirmed the printer has a valid IP address and that it's on the same network as the devices. Access the printer's web interface or control panel to check its IP address. 
+Ping Test: Use the ping command in a terminal window to verify communication with the printer by its IP address. 
+Firewall: Ensure that firewalls on your computer or router are not blocking communication to the printer. 
+
+Printer Settings:
+Driver: Made sure user have the correct printer driver installed on your computer. 
+Print Queue: Checked the print queue on your computer for any stuck or corrupted print jobs. 
+Default Printer: Verified that the printer is set as the default printer on your computer. 
+Web Interface: Checked the printer's web interface for any error messages or alerts. 
+
+
+Advanced Troubleshooting:
+Static IP: If the printer frequently loses its IP address, consider assigning it a static IP address. 
+SNMP: If user having trouble with SNMP, ensured the required dependencies are installed and refer to your printer's documentation. 
+Ports: Ensure that the necessary ports (161, 162, and 9100) are open through your firewall. 
+Factory Reset: As a last resort, you can try a factory reset on the printer. 
+
+Issue fixed."
+Unable to Print using Network Printer,Network,VPN,Network,"Issue:  Unable to Print using Network Printer
+
+Resolution:
+1. Basic Checks:
+Power Cycle: Turn off the printer, unplug it, wait 30 seconds, then plug it back in and turn it on. 
+Restart Router: Unplug the router, wait 30 seconds, then plug it back in. 
+Check Connections: Ensure the printer is securely connected to the network via Ethernet or Wi-Fi, and that the cables are properly plugged in. 
+
+2. Network Configuration:
+IP Address: Confirmed the printer has a valid IP address and that it's on the same network as the devices. Access the printer's web interface or control panel to check its IP address. 
+Ping Test: Use the ping command in a terminal window to verify communication with the printer by its IP address. 
+Firewall: Ensure that firewalls on your computer or router are not blocking communication to the printer. 
+
+3. Printer Settings:
+Driver: Made sure user have the correct printer driver installed on your computer. 
+Print Queue: Checked the print queue on your computer for any stuck or corrupted print jobs. 
+Default Printer: Verified that the printer is set as the default printer on your computer. 
+Web Interface: Checked the printer's web interface for any error messages or alerts. 
+"
+Network Printer issue,Network,Wireless,Problem Analyzers,"Issue: Network Printer issue
+
+Resolution:
+1. Basic Checks:
+Power Cycle: Turn off the printer, unplug it, wait 30 seconds, then plug it back in and turn it on. 
+Restart Router: Unplug the router, wait 30 seconds, then plug it back in. 
+Check Connections: Ensure the printer is securely connected to the network via Ethernet or Wi-Fi, and that the cables are properly plugged in. 
+
+2. Network Configuration:
+IP Address: Confirmed the printer has a valid IP address and that it's on the same network as the devices. Access the printer's web interface or control panel to check its IP address. 
+Ping Test: Use the ping command in a terminal window to verify communication with the printer by its IP address. 
+Firewall: Ensure that firewalls on your computer or router are not blocking communication to the printer. 
+"
+Unable to connect Bluetooth device. Showing No input devices.,Inquiry_Help,,,"1. Requested the user to grant control to his laptop
+2. Restarted the Bluetooth services with admin rights
+3. Post enabling the services the user is able to connect Bluetooth devices
+
+Hence closing the ticket"
+Connection issue with CheckPoint VPN,Network,,Help Desk,"Mandatory Steps to perform:
+1. Login to the RSA portal on 3cint.com, check the source of the account if it is 3tint.local or 3tint.com.
+Source of the account - 3tint.com
+2. Check the status of account on RSA if it is locked/enabled/disabled.
+Disabled
+
+If the account is in disabled state (this would be mostly 3cint.com), follow the below steps:
+
+1. 3tint.com accounts go in disabled state if it is not used for more 3 months. Even if you enable it, it will again go in disabled state within 5 minutes of enabling it, till the active directory validates a sign in request.
+Checked
+
+2. To resolve this, SD Engineer needs to go in a live call with the user, enable the account for the user to be able to connect to Checkpoint VPN. Reset the password for the user and enable back the account again as it would get disabled in 4-5 minutes.
+Account enabled to connect Checkpoint VPN also the Password id reset
+
+3. Have the user try RDP to XXX.XX.15.4 using the production account username and password. Even if the user gets error message: Access Denied, AD will validate a sign-in attempt which will stop disabling the AD account.
+
+User confirmed that he is able to connect, hence closing the ticket"
+Access requests to CheckPoint,Inquiry_Help,,Help Desk,"Resolution Note: 
+Checkpoint VPN installation 
+1. User should have a 3tint.com or 3tint.local account with a RSA token assigned. 
+User has access to 3tint.com
+2. If they have the RSA token assigned, have the user attempt to connect with user ID and passcode.
+Was able to connect with user ID and Passcode
+
+Closing the incidents with confirmation from User"
+Access requests to FortiClient,Software,,,"Mandatory step to check:
+Make sure user is added to FortiClient_Users group on OKTA.
+
+If FortiClient is not installed on the end user laptop: Add the user to the Azure security group: MAPP_Fortinet_FortiClient_6.4.10_Install
+
+Go to Company portal applications>Go to settings on the bottom left and click on Sync for FortiClient get installed (This would be for installation to happen right away)
+
+Post installation: 
+
+Have the user enter the email address in username and work account password. At 48% of the connection, user can either type the OKTA token from the OKTA Verify application or they can type 1, click on submit. This will send a push notification to the user, user can click on Yes, it's me. User should be connected."
+Speaker Issue - can't hear,Hardware,,,"Troubleshooting steps:
+
+1. Basic Checks:
+• Volume:
+Made sure the volume is turned up on both the system and the audio application you're using. 
+• Mute:
+Verified that the speakers aren't muted either in the system settings or within the application. 
+• Output Device:
+Control Panel > Sound > Playback tab to confirm that the correct device (usually ""Speakers"" or ""Internal Speakers"") is selected as the default. 
+• Cables/Connections:
+If using external speakers, ensure they are properly connected, and the volume is adjusted on the speakers themselves. 
+
+
+2. Audio Driver Issues:
+• Update Drivers:
+Device Manager, expand ""Sound, video and game controllers,"" and check for updates or update the driver manually.
+• Reinstall Drivers:
+Tried uninstalling and then letting Windows automatically reinstall the drivers.
+• Rollback Drivers:
+If the issue started after a Windows update, consider rolling back the drivers to a previous version. 
+
+
+
+3. Other Troubleshooting Steps:
+• Run Audio Troubleshooter: Windows has a built-in troubleshooter that can diagnose and fix audio problems. 
+• Restart Computer: A simple restart can sometimes resolve temporary software glitches. 
+• Check for Conflicts: Ensure that no other applications are interfering with the audio output. 
+• System Restore: If the issue started recently, try restoring your system to a previous state. 
+• Contact Manufacturer: none of the above steps worked, educated contacting laptop manufacturer for further assistance. 
+
+Informed to contact manufacturer.
+Issue resolved"
+speaker not working in laptop,Hardware,,,"User said speaker is not working in laptop
+
+Troubleshooting steps:
+
+1. Basic Checks:
+• Volume:
+Made sure the volume is turned up on both the system and the audio application you're using.
+• Mute:
+Verified that the speakers aren't muted either in the system settings or within the application.
+• Output Device:
+Control Panel > Sound > Playback tab to confirm that the correct device (usually ""Speakers"" or ""Internal Speakers"") is selected as the default.
+• Cables/Connections:
+If using external speakers, ensure they are properly connected, and the volume is adjusted on the speakers themselves.
+
+
+2. Audio Driver Issues:
+• Update Drivers:
+Device Manager, expand ""Sound, video and game controllers,"" and check for updates or update the driver manually.
+• Reinstall Drivers:
+Tried uninstalling and then letting Windows automatically reinstall the drivers.
+• Rollback Drivers:
+If the issue started after a Windows update, consider rolling back the drivers to a previous version.
+
+
+Issue Resolved"
+Mouse issue,Hardware,Mouse,,"User not able to use Mouse in laptop
+
+1. Basic Checks:
+Physical Connection:
+If using a wired mouse, ensure it's properly plugged into a USB port. Try different ports. 
+Wireless Mouse:
+If it's a wireless mouse, make sure it's turned on, the receiver is connected, and the batteries are good. 
+Restart:
+A simple restart of your laptop can often resolve minor glitches that might be preventing the mouse from working properly. 
+
+2. Driver Issues:
+Update Drivers:
+Outdated or corrupted drivers can cause mouse problems. You can update the drivers through Device Manager. 
+Reinstall Drivers:
+If updating doesn't fix the issue, you can try reinstalling the drivers by uninstalling them in Device Manager and then restarting your computer. 
+Bluetooth Issues:
+If you're using a Bluetooth mouse, make sure your Bluetooth adapter is working, and the mouse is properly paired. You may need to update or reinstall the Bluetooth drivers.
+
+3. Hardware and Software Conflicts:
+Check for Conflicts:
+Disconnect other USB devices to see if the mouse works. Also, disable any unnecessary software or programs that might be interfering with the mouse driver. 
+Clean Boot:
+A clean boot can help identify if a third-party program is causing the issue. 
+
+
+4. Advanced Troubleshooting:
+System Restore:
+Tried using System Restore to go back to a previous state when the mouse was working. 
+Reset Windows:
+Try resetting Windows to its default settings but be aware that this will delete your personal files and settings. 
+
+Issue resolved.
+User able to use Mouse.
+"
+Mouse not working,Hardware,Mouse,,"Mouse not working in laptop
+
+
+1. Basic Checks:
+Physical Connection:
+If using a wired mouse, ensure it's properly plugged into a USB port. Try different ports.
+Wireless Mouse:
+If it's a wireless mouse, make sure it's turned on, the receiver is connected, and the batteries are good.
+Restart:
+A simple restart of your laptop can often resolve minor glitches that might be preventing the mouse from working properly.
+
+2. Driver Issues:
+Update Drivers:
+Outdated or corrupted drivers can cause mouse problems. You can update the drivers through Device Manager.
+Reinstall Drivers:
+If updating doesn't fix the issue, you can try reinstalling the drivers by uninstalling them in Device Manager and then restarting your computer.
+Bluetooth Issues:
+If you're using a Bluetooth mouse, make sure your Bluetooth adapter is working, and the mouse is properly paired. You may need to update or reinstall the Bluetooth drivers.
+
+3. Hardware and Software Conflicts:
+Check for Conflicts:
+Disconnect other USB devices to see if the mouse works. Also, disable any unnecessary software or programs that might be interfering with the mouse driver.
+Clean Boot:
+A clean boot can help identify if a third-party program is causing the issue.
+
+3rd party interference, hence guided user to reach to 3rd party
+Closing the ticket"
+mouse not working in laptop,Hardware,Mouse,Service Desk,"
+1. Basic Checks:
+Physical Connection:
+If using a wired mouse, ensure it's properly plugged into a USB port. Try different ports. 
+Wireless Mouse:
+If it's a wireless mouse, make sure it's turned on, the receiver is connected, and the batteries are good. 
+Restart:
+A simple restart of your laptop can often resolve minor glitches that might be preventing the mouse from working properly. 
+
+2. Driver Issues:
+Update Drivers:
+Outdated or corrupted drivers can cause mouse problems. You can update the drivers through Device Manager. 
+Reinstall Drivers:
+If updating doesn't fix the issue, you can try reinstalling the drivers by uninstalling them in Device Manager and then restarting your computer. 
+Bluetooth Issues:
+If you're using a Bluetooth mouse, make sure your Bluetooth adapter is working, and the mouse is properly paired. You may need to update or reinstall the Bluetooth drivers.
+
+Mouse worked.
+Issue resolved.
+"
+Network drives are missing,Inquiry_Help,,Help Desk,"Issue: Network drives are missing
+
+Resolution Steps:
+Took remote of user's machine and performed below steps
+>>Opened File Explore Start menu
+>>Selected Map network drive.
+>> User provided the path of the network drive. To reconnect to the drives every time user logs on to the PC, checked the Reconnect at sign-in check box.
+>>Finish
+
+The network drive was mapped and user was able to access all the files in it.
+User confirmed ticket closure."
+Server access issue,Inquiry_Help,Internal Application,,"Resolution comments
+1. Login to the abcd.net jump server: 10.120.130.93
+2. Launch Command prompt: type net user<Space>Windows logon name of the user<Space>/domain and hit enter
+3. Check if the password is expired for the user account.
+4. If not, login to the RC Devs token link following the KB article"
+Outlook Issue - Unable to login,Software,,,"Update Outlook:
+Make sure you have the latest version of Outlook installed - Yes
+Repair Outlook Profile:
+Go to File > Account Settings > Account Settings, select your account, and click Repair. - Complete
+Clear Roaming Cache:
+Delete all items in the C:\\Users\\UserName\\AppData\\Local\\Microsoft\\Outlook\\RoamCache folder. - NA
+Safe Mode:
+Start Outlook in safe mode by typing Outlook /safe in the Windows search and then closing and reopening Outlook- NA"
+Unable to Boot PC,Hardware,CPU,,"Check BIOS Settings:
+Enter the BIOS (or UEFI) settings and ensure the boot order is set correctly, with the hard drive or SSD listed first.
+Run System Diagnostics:
+Run system diagnostics to check for hardware errors.
+Check Hard Drive:
+If you suspect a hard drive issue, try booting from a different bootable device to see if the PC can boot from it.
+ 
+BIOS Recovery (if applicable):
+BIOS Update Interrupted: If you were in the middle of a BIOS update when the PC stopped working, you might need to perform a BIOS recovery procedure.
+ 
+Restart the PC and it booted up.
+Issue resolved"
+ unable to send or receive emails from outlook,Software,Email,,"Remote in to user's machine
+>>Force closed the Outlook application and restarted the machine
+User was still facing the issue
+>>Closed Outlook
+>>Repaired Office 
+Control Panel->Programs and Features->Microsoft Office->Change->Repair
+Informed user it'll take few minutes for the Repair to Finish
+>>Once complete, asked user to reboot the machine
+>> User checked and confirmed he is able to send/receive mails "
+Printer Issue,Hardware,Printer,Service Desk,"Unable to connect or unable to print 
+
+Detailed Troubleshooting Steps:
+1.      1. Check for Error Lights and Messages:
+Look for any error lights or messages displayed on the printer's control panel. 
+2.      2. Clear the Print Queue:
+If print jobs are stuck in the queue, clear them to see if the issue resolves itself.
+3.      3. Restart the Print Spooler:
+Restarting the Print Spooler service can resolve issues with printing queues 
+4.      4. Solidify the Connection:
+Ensure your printer is properly connected to your computer via cable or Wi-Fi. 
+5.      5. Verify Printer Selection:
+Make sure you've selected the correct printer in your software or operating system settings. 
+6.      6. Check Paper and Ink:
+Ensure there is sufficient paper in the tray and that ink cartridges (if applicable) are not empty or low, 
+7.      7. Update or Reinstall Drivers:
+Outdated or corrupted drivers can cause printing problems, so updating or reinstalling them may resolve the issue. 
+8.      8. Test the Printer:
+Try printing a test page to check if the printer is functioning correctly. 
+9.      9. Hard Reset:
+If the problem persists, try a hard reset of the printer by unplugging it for a few minutes. 
+
+Able to print
+"
+Outlook stuck at Loading,Inquiry_Help,,Help Desk,"Steps performed:
+
+>>Guided user to Force close Outlook from Task Manager 
+>> Reboot machine and tried relaunching Outlook, issue persisted
+>>Created a new Outlook profile
+      Control Panel->UserAccount->Mail->Email Accounts->New->Add Email address->Create
+>> Added back all the personal folders
+>> User checked and confirmed the issue is resolved"
+Unable to Print any documents,Hardware,,Hardware,"User is Unable to Print any documents from morning.
+
+Detailed Troubleshooting Steps:
+1.      1. Check for Error Lights and Messages:
+Look for any error lights or messages displayed on the printer's control panel. 
+2.      2. Clear the Print Queue:
+If print jobs are stuck in the queue, clear them to see if the issue resolves itself.
+3.      3. Restart the Print Spooler:
+Restarting the Print Spooler service can resolve issues with printing queues 
+4.      4. Solidify the Connection:
+Ensure your printer is properly connected to your computer via cable or Wi-Fi. 
+5.      5. Verify Printer Selection:
+Make sure you've selected the correct printer in your software or operating system settings. 
+
+Able to Print
+"
+Enable the Pop-up Blocker,Inquiry_Help,Internal Application,Network,"Issue:  Enable the Pop-up Blocker
+
+Trouble Shooting Steps:
+1.      Open Internet Explorer: Launch the browser on your computer.
+2.      Access Internet Options: Click on the ""Tools"" menu (or the gear icon) in the upper-right corner, then select ""Internet Options,""
+3.      Go to the Privacy Tab: In the Internet Options window, click on the ""Privacy"" tab.
+4.      Enable the Pop-up Blocker: Under the ""Pop-up Blocker"" section, check the box that says ""Turn on Pop-up Blocker"".
+5.      Confirm Changes: Click ""OK"" to save the settings and enable the pop-up blocker. 
+
+Able to open the webpages without any issues."
+Network drives are missing,Inquiry_Help,,,"Resolution Steps:
+Took remote of user's machine and performed below steps
+>>Opened File Explore Start menu
+>>Selected Map network drive.
+>> User provided the path of the network drive. To reconnect to the drives every time user logs on to the PC, checked the Reconnect at sign-in check box.
+>>Finish
+
+The network drive was mapped and user was able to access all the files in it.
+User confirmed ticket closure."
+Domain Account Password Reset,Inquiry_Help,,,"Steps Performed: 
+
+>>Authenticated User with security questions.
+>>Reset password on AD and communicated new password to the user
+>>User confirmed login
+>>Assisted user to change to a password of his choice
+>>Asked user to lock and unlock  with the password he chose
+>>User confirmed connection to VPN with new password.
+
+User confirmed resolution and ticket closure"
+Microsoft teams unable to call,Network,Wireless,Software,"Issue: User unable to make call using MS Teams.
+
+Resolution:
+1. Licensing and Calling Plans:
+2. Permissions and Device Settings:
+3. Network Check
+4. Check for Teams updates: - Ensure latest version of Teams is installed
+5. Restarted PC
+
+Issue resolved
+"
+Assistance with creating New group on Teams,Inquiry_Help,,Help Desk,"Steps Performed:
+
+Assisted user to create group on Teams
+
+>>click Teams on the left side of the app, then click Join or create a team. 
+>>click Create team
+>>Asked user to choose Build a team from scratch and choose kind of team he want this to be
+>>Advised user to name the team and add an optional description. 
+>> Click Create. "
+copilot not working ,Inquiry_Help,Internal Application,,"Issue: copilot not working in any applications
+Resolution: 
+Checked for Outages, 
+Checked internet connection, 
+Checked Copilot activation,
+Clear Browser Cache and Cookies,
+Restarted PC.
+
+Able to see Copilot in all applications and working fine."
+Unable to access the shared folder.,Network,VPN,,"Issue: No access to Shared Folder
+Resolution: Gave Permissions to access the folder.  
+Verified Network settings - 
+Ensured both computers are on the same network . 
+Turned on network discovery and file and printer sharing: on both computers: 
+
+Able to Access Shared Folders."
+Outlook Issue,Inquiry_Help,,,Closed by Caller
+Outlook not responding,Software,Email,,"Issue: Outlook Not Responding
+Resolution: Created new Profile, issue resolved
+"
+Unable to access the shared folder.,Inquiry_Help,,,
+Email server is down.,Software,Email,,
+Defect tracking tool is down.,Software,,,Reverted to a previous version.
+Cannot sign into the company portal app,Inquiry_Help,,,Reinstalled the app
+My computer is not detecting the headphone device,Hardware,,,This is not an issue with the USB port. Replaced the headset to resolve the issue.
+Unable to post content on a Wiki page,Inquiry_Help,,,
+Assessment :  ATF Assessor,Inquiry_Help,,,
+ATF : Test1,Inquiry_Help,,,
+ATF:TEST2,Inquiry_Help,,,
+Need access to the common drive.,Inquiry_Help,,,
+Employee payroll application server is down.,Hardware,,Openspace,
+Unable to access the personal details section in payroll portal,Inquiry_Help,,,
+The USB port on my PC stopped working,Hardware,,,As this is intermittent. Restarting the PC fixes this.
+Unable to connect to email,Inquiry_Help,Email,Network,This incident is resolved.
+Unable to access team file share,Inquiry_Help,,,
+Performance problems with email,Inquiry_Help,,,
+Performance problems with wifi,Inquiry_Help,,,
+SAP Sales app is not accessible,,,Service Desk,
+SAP Materials Management is slow or there is an outage,Software,,Service Desk,
+The SAP HR application is not accessible,Inquiry_Help,,Software,
+SAP Financial Accounting application appears to be down,Software,,Software,
+Manager can't access SAP Controlling application,Software,,Software,
+Can't access Exchange server - is it down?,Hardware,,Hardware,
+Network storage unavailable,Network,,Hardware,
+Having problems with Sales Tools performance,,,,
+Issue with email,Inquiry_Help,Email,Software,
+Can't access SFA software,Software,,Software,
+Can't log into SAP from my laptop today,,,,
+My desk phone does not work,Hardware,,,
+JavaScript error on hiring page of corporate website,Inquiry_Help,,,
+Trouble getting to Oregon mail server,Network,,Network,
+my PDF docs are all locked from editing,Software,,Service Desk,"Closed before close notes were made mandatory
+  "
+Request for a new service,Inquiry_Help,,Service Desk,
+Issue with networking,Inquiry_Help,,Network,"Closed before close notes were made mandatory
+  "
+Reset my password,Inquiry_Help,,Service Desk,"Closed before close notes were made mandatory
+  "
+Does not look like a backup occurred last night,Software,,Software,asdasdasdsad
+File Server is 80% full - Needs upgrade,Inquiry_Help,,Hardware,"Closed before close notes were made mandatory
+  "
+EMAIL Server Down Again,Inquiry_Help,,Hardware,"Closed before close notes were made mandatory
+  "
+Need help with Remedy. Can we configure UI?,Inquiry_Help,,,
+Lost connection to the wireless network,Hardware,,Network,"Closed before close notes were made mandatory
+  "
+I can't get my weather report,Inquiry_Help,,Service Desk,
+My disk is still having issues. Can't delete a file,Inquiry_Help,,Service Desk,"Closed before close notes were made mandatory
+  "
+Please remove the latest hotfix from my PC,Software,,,
+Seem to have an issue with my hard drive...,Hardware,,Hardware,"Closed before close notes were made mandatory
+  "
+Need to add more memory to laptop,Hardware,,,
+Issue with a web page on wiki,Inquiry_Help,,Service Desk,"Closed before close notes were made mandatory
+  "
+New employee hire,Inquiry_Help,,,"Closed before close notes were made mandatory
+  "
+"I need a replacement iPhone, please",Inquiry_Help,,,
+Can't launch 64-bit Windows 7 virtual machine,Software,,,
+Sales forecast spreadsheet is READ ONLY,,,,
+How do I create a sub-folder,Inquiry_Help,,Service Desk,
+Rain is leaking on main DNS Server,Hardware,,Hardware,
+I can't launch my VPN client since the last software update,Software,,Software,
+Missing my home directory,Inquiry_Help,,,Done
+EMAIL is slow when an attachment is involved,Inquiry_Help,,Software,Gave workaround
+Customer didn't receive eFax,Software,,Database,"Closed before close notes were made mandatory
+  "
+Need new Blackberry set up,Inquiry_Help,,Hardware,"Closed before close notes were made mandatory
+  "
+Need Oracle 10GR2 installed,Database,,Database,"Closed before close notes were made mandatory
+  "
+Reset my password,Inquiry_Help,,Service Desk,"Closed before close notes were made mandatory
+  "
+Printer in my office is out of toner,Inquiry_Help,,Hardware,"Closed before close notes were made mandatory
+  "
+Need access to sales DB for the West,Database,,,
+Hangs when trying to print VISIO document,Software,,Software,"Closed before close notes were made mandatory
+  "
+CPU load high for over 10 minutes,Hardware,,Hardware,Fixed
+Forgot email password,Inquiry_Help,,Service Desk,"Walked him through settng his password, again.
+  "
+Wireless access is down in my area,Network,,Network,
+Network file shares access issue,Network,,Network,
+Can't read email,Network,,Service Desk,"Closed before close notes were made mandatory
+  "

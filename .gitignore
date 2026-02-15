@@ -1,2 +1,4 @@
 .venv
 .env
+GenAI/.env
+GenAI/Incident_summarization_lab/__pycache__

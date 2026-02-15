@@ -1,3 +1,13 @@
+
+##Create virtual environment in vscode terminal
+#Download vscode and python 3.12
+py -3.12 -m venv .venv (for local)
+.\.venv\Scripts\activate (for local)
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+
+#Create virtual environment in GCP Cloud Shell and MAC
+python3.12 -m venv .venv (for GCP Cloud Shell)
+source .venv/bin/activate (for GCP Cloud Shell)
 #### ENV ####
 GOOGLE_API_KEY=yourkey
 GCP_PROJECT_ID=project-b629d2c5-6ec0-4b7d-b32
@@ -6,7 +16,9 @@ GCP_REGION=us-central1
 poetry add langchain==0.3.27
 poetry add python-dotenv==1.1.1
 poetry add langchain-google-genai==2.1.12
-poetry add streamlit
+poetry add numpy==2.2.0
+poetry add pandas==2.2.2
+poetry add streamlit==1.50.0
 
 # Langchain Docs
 https://docs.langchain.com/oss/python/langchain/models#google-gemini
