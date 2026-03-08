@@ -1,0 +1,52 @@
+[
+  {
+    "product_id": 1,
+    "description": "Experience high-quality sound without the wires. These Bluetooth headphones offer 20 hours of battery life, noise cancellation, and a comfortable over-ear design.",
+    "generated_summary": "These Bluetooth over-ear headphones deliver high-quality sound, 20 hours of battery life, and noise cancellation for a comfortable wireless listening experience.",
+    "BLEU": 0.2829,
+    "ROUGE-1": 0.8085,
+    "ROUGE-L": 0.5106,
+    "BERTScore-F1": 0.9414,
+    "Cosine-Similarity": 0.8299
+  },
+  {
+    "product_id": 2,
+    "description": "Track your steps, heart rate, sleep patterns, and more with this water-resistant smart fitness band. Includes mobile app integration and up to 7-day battery life.",
+    "generated_summary": "This water-resistant smart fitness band tracks steps, heart rate, and sleep, featuring mobile app integration and up to 7-day battery life.",
+    "BLEU": 0.5179,
+    "ROUGE-1": 0.88,
+    "ROUGE-L": 0.64,
+    "BERTScore-F1": 0.9564,
+    "Cosine-Similarity": 0.955
+  },
+  {
+    "product_id": 3,
+    "description": "Immerse yourself in vivid picture quality with this 55-inch 4K UHD Smart TV. Features voice control, multiple streaming apps, and HDR10 support.",
+    "generated_summary": "This is a 55-inch 4K UHD Smart TV with voice control, multiple streaming apps, and HDR10 support.",
+    "BLEU": 0.5215,
+    "ROUGE-1": 0.7805,
+    "ROUGE-L": 0.7317,
+    "BERTScore-F1": 0.9476,
+    "Cosine-Similarity": 0.8335
+  },
+  {
+    "product_id": 4,
+    "description": "A robotic vacuum with smart navigation, automatic recharging, and support for voice assistants. Ideal for pet hair and hardwood floors.",
+    "generated_summary": "This robotic vacuum offers smart navigation, automatic recharging, and voice assistant support, making it ideal for cleaning pet hair on hardwood floors.",
+    "BLEU": 0.3266,
+    "ROUGE-1": 0.7619,
+    "ROUGE-L": 0.7143,
+    "BERTScore-F1": 0.9674,
+    "Cosine-Similarity": 0.9139
+  },
+  {
+    "product_id": 5,
+    "description": "Cook your favorite meals with less oil using this 5-liter digital air fryer. It comes with pre-set functions, temperature control, and an easy-to-clean basket.",
+    "generated_summary": "This 5-liter digital air fryer allows you to cook meals with less oil. It features pre-set functions, temperature control, and an easy-to-clean basket.",
+    "BLEU": 0.5552,
+    "ROUGE-1": 0.8364,
+    "ROUGE-L": 0.6545,
+    "BERTScore-F1": 0.9614,
+    "Cosine-Similarity": 0.9096
+  }
+]

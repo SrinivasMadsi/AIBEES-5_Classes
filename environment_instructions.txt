@@ -26,6 +26,13 @@ poetry add langchain-community==0.3.27 # FAISS vectorstore integration (match la
 poetry add faiss-cpu==1.11.0  # FAISS vector similarity search
 poetry add langchain-text-splitters==0.3.9 # RecursiveCharacterTextSplitter
 
+## Similarity Evaluation
+poetry add nltk==3.9.2
+poetry add rouge-score==0.1.2
+poetry add bert-score==0.3.13
+poetry add sentence-transformers==5.1.2
+
+
 # Langchain Docs
 https://docs.langchain.com/oss/python/langchain/models#google-gemini
 
