@@ -32,6 +32,13 @@ poetry add rouge-score==0.1.2
 poetry add bert-score==0.3.13
 poetry add sentence-transformers==5.1.2
 
+## RAG Evaluation Libraries
+poetry add ragas==0.4.3
+poetry add datasets==4.0.0
+poetry add deepeval==3.8.9
+poetry add google-genai # required for deepeval
+
+
 
 # Langchain Docs
 https://docs.langchain.com/oss/python/langchain/models#google-gemini
