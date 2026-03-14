@@ -2,5 +2,5 @@
 .env
 GenAI/.env
 GenAI/Incident_summarization_lab/__pycache__
-GenAI/RAG_Setup/.rag_config.json
-GenAI/RAG_Setup/.env
+GenAI/Enterprise_RAG_Setup/.rag_config.json
+GenAI/Enterprise_RAG_Setup/.env
