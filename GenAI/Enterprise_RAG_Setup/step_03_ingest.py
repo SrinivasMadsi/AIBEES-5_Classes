@@ -81,6 +81,8 @@ def list_pdfs(prefix: str) -> list[str]:
 
 
 def download_pdf(blob_name: str) -> str:
+    """
+    Download a PDF from GCS to a local temp file. Returns the local file path."""
     client = gcs_client()
     blob   = client.bucket(SOURCE_BUCKET).blob(blob_name)
     tmp    = tempfile.NamedTemporaryFile(delete=False, suffix=".pdf")
@@ -105,6 +107,10 @@ def verify_embeddings_in_gcs() -> int:
 # ── Tracker ───────────────────────────────────────────────────────────────────
 
 def load_tracker() -> set:
+    """
+    Reads a tracking file stored in GCS that remembers which PDFs have already been ingested
+    — so incremental mode knows what to skip.
+    """
     client = gcs_client()
     blob   = client.bucket(EMBED_BUCKET).blob(TRACKER_BLOB)
     if blob.exists():
@@ -146,6 +152,10 @@ def load_and_chunk(local_path: str, gcs_name: str) -> list:
 # ── Batched upsert ────────────────────────────────────────────────────────────
 
 def upsert_in_batches(vector_store, texts: list[str], metadatas: list[dict]) -> None:
+    """
+    Sends chunks to Vertex AI Vector Search in small groups (batches) instead of all at once
+    — because the embedding API has a limit on how many texts it can process in one call.
+    """
     total   = len(texts)
     n_batch = math.ceil(total / MAX_EMBED_BATCH)
     log.info("  Upserting %d chunk(s) in %d batch(es) of ≤%d …",

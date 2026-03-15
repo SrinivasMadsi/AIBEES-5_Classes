@@ -116,7 +116,7 @@ def build_chain(config: dict, top_k: int):
     # Embedder — uses GOOGLE_API_KEY loaded from .env
     log.info("Initialising embedding model: %s", EMBEDDING_MODEL)
     embedder = GoogleGenerativeAIEmbeddings(
-        output_dimensionality=1536,
+        output_dimensionality=3072,
         model=EMBEDDING_MODEL,
         task_type="RETRIEVAL_QUERY",
         google_api_key=_api_key,        # explicitly passed from .env

@@ -49,7 +49,9 @@ def create_bucket(client: storage.Client, bucket_name: str, region: str) -> None
 
 
 def create_placeholder_prefix(client: storage.Client, bucket_name: str, prefix: str) -> None:
-    """Create an empty placeholder object so the PDF prefix is visible in the console."""
+    """Create an empty placeholder object so the PDF prefix is visible in the console.
+        else we dont see the folder until we upload the first pdf file
+    """
     bucket = client.bucket(bucket_name)
     blob   = bucket.blob(f"{prefix}.keep")
     if not blob.exists():
