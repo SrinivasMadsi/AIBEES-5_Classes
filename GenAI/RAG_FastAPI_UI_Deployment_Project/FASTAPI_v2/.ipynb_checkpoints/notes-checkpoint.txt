@@ -1,0 +1,30 @@
+
+
+
+#FASTAPI :: {# LLM wrapper + landing directory + Pydantic ( base model)}
+
+    
+    LLM wrapper:
+    
+    
+    # Vector search : Query vector -> Map to embeddings (ANN:embedding) -> to locate the chunks 
+    
+    # Context: top-3 chunks
+    
+    # Prompt 
+    # Call LLM
+    
+    
+    # Prompt + LLM
+    
+    Retrieval + Augmented + Generation(LLM) [ RAG ]
+    
+    
+
+# Docker + deployment + services
+
+docker image build
+create a repo
+push the image to the repo
+Build a service with Cloud Run.
+

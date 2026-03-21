@@ -1,0 +1,46 @@
+## To know the workbench account you are using for deployment
+curl -s "http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/email" \
+  -H "Metadata-Flavor: Google"
+  
+Sample output : 633943311262-compute@developer.gserviceaccount.com 
+
+## Check if this exact account is reflecting in IAM & Admin -> IAM page
+    - search for IAM in search bar and navigate to IAM & Admin -> IAM 
+    - If Yes, add the missing role
+	- If No, add the principle account with the sample output as reference and add the role 
+	    - View by Principles -> Grant Access -> Add Principals (add 633943311262-compute@developer.gserviceaccount.com as a name) and    
+		  add the required role (based on the error you are getting while doing the deployment)
+	- Retry your deployments
+
+
+
+# Docker Image creation
+
+docker build -t rag_api_0320 .
+
+# Docker Image push to Artifact registry
+
+docker tag rag_api_0320 us-central1-docker.pkg.dev/project-b629d2c5-6ec0-4b7d-b32/aibees5/rag_api_0320:v1
+gcloud auth configure-docker us-central1-docker.pkg.dev
+docker push us-central1-docker.pkg.dev/project-b629d2c5-6ec0-4b7d-b32/aibees5/rag_api_0320:v1
+
+# Create cloud run service
+
+gcloud run deploy rag-api \
+  --image us-central1-docker.pkg.dev/crack-lacing-484111-h3/aibees5/rag_api_0320:v1 \
+  --region us-central1 \
+  --project crack-lacing-484111-h3 \
+  --memory 4Gi \
+  --cpu 2 \
+  --timeout 300 \
+  --concurrency 80 \
+  --min-instances 0 \
+  --max-instances 5 \
+  --allow-unauthenticated
+
+
+# output the endpoint url:
+
+# Sample CURL command syntax to check the API :
+
+  
