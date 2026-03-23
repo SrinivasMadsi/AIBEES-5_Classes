@@ -38,6 +38,8 @@ poetry add datasets==4.0.0
 poetry add deepeval==3.8.9
 poetry add google-genai # required for deepeval
 
+## Guardrails
+If all above libraries are installed then no need to install any new libraries.
 
 
 # Langchain Docs

@@ -1,0 +1,21 @@
+# Let pip resolve compatible versions automatically
+langchain>=0.3.0
+langchain-google-vertexai>=2.0.7
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+google-cloud-aiplatform>=1.50.0
+
+# Vector store (only required when USE_VERTEXAI=1).
+# If faiss fails to install on your machine, you can remove this line and still run the demo
+# in local mode (USE_VERTEXAI=0).
+faiss-cpu>=1.12.0
+
+# Document loaders
+pypdf>=4.2.0
+
+# UI
+streamlit>=1.35.0
+
+# Utilities
+python-dotenv>=1.0.1
+fpdf2>=2.7.9
