@@ -1,0 +1,3 @@
+# Install below packages 
+poetry add transformers peft accelerate bitsandbytes trl torch
+if you face any issues related to python version then modify it accordingly ">=3.12,<3.14"

@@ -42,6 +42,20 @@ poetry add google-genai # required for deepeval
 If all above libraries are installed then no need to install any new libraries.
 
 
+
+## Onprem Instructions
+poetry add langchain-ollama==0.2.0
+
+** Fine Tuning Libraries
+poetry add transformers==4.57.3
+poetry add peft==0.18.0
+poetry add accelerate==1.12.0
+poetry add bitsandbytes==0.48.2
+poetry add trl==0.25.1
+poetry add torch==2.9.1 
+    #if you get any error then in pyproject.toml file change requires-python = ">=3.12,<3.15" and install the failed library again
+
+
 # Langchain Docs
 https://docs.langchain.com/oss/python/langchain/models#google-gemini
 
