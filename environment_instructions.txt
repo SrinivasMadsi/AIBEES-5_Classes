@@ -56,6 +56,20 @@ poetry add torch==2.9.1
     #if you get any error then in pyproject.toml file change requires-python = ">=3.12,<3.15" and install the failed library again
 
 
+## Agentic Libraries 
+
+**change below version in pyproject.toml file
+    # Before
+    "google-genai (>=1.66.0,<2.0.0)",
+
+    # After
+    "google-genai (>=1.65.0,<2.0.0)",
+
+poetry add crewai[google-genai]====1.14.1 # incase of any issues change requires-python = ">=3.12,<3.14"
+
+
+
+
 # Langchain Docs
 https://docs.langchain.com/oss/python/langchain/models#google-gemini
 

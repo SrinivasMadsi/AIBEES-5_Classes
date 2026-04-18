@@ -6,7 +6,7 @@ authors = [
     {name = "srini"}
 ]
 readme = "README.md"
-requires-python = ">=3.12,<3.15"
+requires-python = ">=3.12,<3.14"
 dependencies = [
     "langchain (==0.3.27)",
     "python-dotenv (==1.1.1)",
@@ -25,7 +25,7 @@ dependencies = [
     "ragas (==0.4.3)",
     "datasets (==4.0.0)",
     "deepeval (==3.8.9)",
-    "google-genai (>=1.66.0,<2.0.0)",
+    "google-genai (>=1.65.0,<2.0.0)",
     "fastapi (==0.115.0)",
     "uvicorn (==0.34.0)",
     "google-cloud-aiplatform (==1.94.0)",
@@ -39,6 +39,7 @@ dependencies = [
     "trl (==0.25.1)",
     "torch (==2.9.1)",
     "langchain-ollama (==0.2.0)",
+    "crewai[google-genai] (==1.14.1)",
 ]
 
 
