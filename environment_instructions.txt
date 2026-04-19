@@ -58,6 +58,7 @@ poetry add torch==2.9.1
 
 ## Agentic Libraries 
 
+** Crewai Libraries
 **change below version in pyproject.toml file
     # Before
     "google-genai (>=1.66.0,<2.0.0)",
@@ -67,6 +68,9 @@ poetry add torch==2.9.1
 
 poetry add crewai[google-genai]====1.14.1 # incase of any issues change requires-python = ">=3.12,<3.14"
 
+== MCP Libraries for Crew AI ==
+poetry add mcp==1.26.0
+poetry add fastmcp==2.3.3
 
 
 
