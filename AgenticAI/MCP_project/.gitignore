@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+frontend/build/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# GCP credentials — NEVER commit these
+*.json
+application_default_credentials.json
+service-account-key.json
+
+# VS Code
+.vscode/settings.json
+.vscode/launch.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
