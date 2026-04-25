@@ -72,6 +72,10 @@ poetry add crewai[google-genai]====1.14.1 # incase of any issues change requires
 poetry add mcp==1.26.0
 poetry add fastmcp==2.3.3
 
+** LangGraph Libraries **
+poetry add langgraph==0.3.34
+
+
 
 
 # Langchain Docs

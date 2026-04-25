@@ -42,6 +42,7 @@ dependencies = [
     "crewai[google-genai] (==1.14.1)",
     "mcp (==1.26.0)",
     "fastmcp (==2.3.3)",
+    "langgraph (==0.3.34)",
 ]
 
 
