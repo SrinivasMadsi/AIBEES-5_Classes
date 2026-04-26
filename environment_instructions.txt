@@ -73,6 +73,14 @@ poetry add mcp==1.26.0
 poetry add fastmcp==2.3.3
 
 ** LangGraph Libraries **
+If cloud account is created newly then authenticate it using 
+
+gcloud auth login
+gcloud auth application-default login
+gcloud config set project YOUR_PROJECT_ID
+# Enable Vertex AI api
+gcloud services enable aiplatform.googleapis.com --project=YOUR_PROJECT_ID
+
 poetry add langgraph==0.3.34
 
 
