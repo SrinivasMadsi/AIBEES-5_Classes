@@ -83,7 +83,14 @@ gcloud services enable aiplatform.googleapis.com --project=YOUR_PROJECT_ID
 
 poetry add langgraph==0.3.34
 
+** Langfuse Setup **
+Go to https://cloud.langfuse.com/ and create new project and retrieve api keys 
+LANGFUSE_SECRET_KEY=YOUR_SECRET_KEY
+LANGFUSE_PUBLIC_KEY=YOUR_PUBLIC_KEY
+LANGFUSE_HOST=https://cloud.langfuse.com
 
+poetry add langfuse 
+poetry add langgraph-checkpoint-sqlite==2.0.6
 
 
 # Langchain Docs
