@@ -1,0 +1,41 @@
+DOCUMENT: Knowledge Base Management Guide
+SOURCE: SharePoint > KB Domain > Management
+LAST UPDATED: 2024-02-28
+
+KB DOMAIN OVERVIEW
+The KB (Knowledge Base) domain manages the organization's internal knowledge
+repository — articles, runbooks, SOPs, troubleshooting guides, and FAQs
+used by IT, support teams, and end users.
+
+KB PLATFORM: Confluence (self-hosted) + ServiceNow Knowledge Module
+
+KB CATEGORIES:
+1. IT Operations    - Runbooks, incident response, change procedures
+2. HR & Policies    - Company policies, onboarding guides, benefits
+3. Product Support  - Product manuals, release notes, known issues
+4. Security         - Security advisories, compliance guides, audits
+5. Finance          - Expense policies, procurement guides, approval flows
+
+KB SMART ACCOUNT (KB Context):
+In the KB domain, Smart Account refers to a Knowledge Author account with
+elevated permissions to create, edit, approve, and publish articles.
+Smart Account holders in KB are subject matter experts (SMEs) vetted by
+the knowledge management team.
+
+KB VIRTUAL ACCOUNT:
+A KB Virtual Account is a reader/subscriber account with access to specific
+knowledge spaces. Virtual accounts are provisioned for contractors,
+partners, and temporary staff who need read-only access to curated spaces.
+
+KB GOVERNANCE:
+- All articles must be reviewed by an SME before publishing
+- Articles expire after 12 months and must be re-certified
+- Broken links auto-flagged within 24 hours
+- Search quality scored monthly (click-through rate, deflection rate)
+
+KB METRICS (Current):
+- Total articles: 4,280
+- Active authors (Smart Accounts): 142
+- Monthly active readers (Virtual Accounts): 8,500
+- Deflection rate: 68% (target: 75%)
+- Average article rating: 4.2/5

@@ -1,0 +1,36 @@
+DOCUMENT: Licensing Virtual Account Policy
+SOURCE: SharePoint > Licensing > Virtual Accounts
+LAST UPDATED: 2024-02-10
+
+WHAT IS A LICENSING VIRTUAL ACCOUNT?
+A Licensing Virtual Account is a sub-container within a Smart Account used to
+organize licenses by business unit, geography, product line, or any logical
+grouping that suits your organization's structure.
+
+VIRTUAL ACCOUNT TYPES IN LICENSING:
+1. DEFAULT Virtual Account  - Auto-created with Smart Account, cannot be deleted
+2. CUSTOM Virtual Account   - Created by admins for specific groupings
+3. REGIONAL Virtual Account - Organized by geographic region (e.g., APAC, EMEA)
+
+LICENSE TRANSFER RULES:
+- Licenses can be freely moved between virtual accounts within the same Smart Account
+- Transfers are instant and do not interrupt active services
+- Transfer history is logged for compliance auditing
+- Cannot transfer licenses to a different Smart Account without re-purchase
+
+COMPLIANCE AND REPORTING:
+- Overage alerts trigger when usage exceeds allocated licenses in a virtual account
+- Monthly compliance reports are auto-generated per virtual account
+- Grace period: 90 days for license overages before enforcement
+
+BEST PRACTICES:
+- Keep virtual accounts aligned to cost centers for easy chargeback
+- Review and rebalance licenses quarterly
+- Set up alert thresholds at 80% utilization
+- Name virtual accounts clearly: [Region]-[BU]-[Product]
+
+CURRENT ACTIVE VIRTUAL ACCOUNTS (Sample):
+- VA-001: HQ-Finance-DNA
+- VA-002: APAC-Engineering-Catalyst
+- VA-003: EMEA-Sales-Webex
+- VA-004: US-DataCenter-UCS

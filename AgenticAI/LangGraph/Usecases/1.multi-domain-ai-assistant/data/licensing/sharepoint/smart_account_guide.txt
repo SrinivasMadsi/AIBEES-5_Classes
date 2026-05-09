@@ -1,0 +1,38 @@
+DOCUMENT: Licensing Smart Account Guide
+SOURCE: SharePoint > Licensing > Smart Accounts
+LAST UPDATED: 2024-01-15
+
+WHAT IS A LICENSING SMART ACCOUNT?
+A Licensing Smart Account is a centralized license management entity used to
+organize, manage, and transfer software licenses across your organization.
+It serves as the primary container for all Cisco software licenses purchased
+under an enterprise agreement.
+
+KEY FEATURES:
+- Centralized license visibility across all virtual accounts
+- Automated license assignment and rebalancing
+- Compliance tracking and reporting dashboard
+- Integration with Cisco Commerce Workspace (CCW)
+
+SMART ACCOUNT HIERARCHY:
+  Smart Account (Root)
+    └── Virtual Account 1 (e.g., HQ Devices)
+    └── Virtual Account 2 (e.g., Branch Offices)
+    └── Virtual Account 3 (e.g., Data Center)
+
+HOW TO CREATE A LICENSING SMART ACCOUNT:
+1. Log in to software.cisco.com
+2. Navigate to Smart Software Manager
+3. Click "Request Smart Account"
+4. Fill in organization details and domain identifier
+5. Submit for approval (typically 24-48 hours)
+
+SMART ACCOUNT ROLES:
+- Smart Account Admin: Full access, can create/delete virtual accounts
+- Virtual Account Admin: Manages licenses within a virtual account
+- User: Read-only access to assigned virtual accounts
+
+IMPORTANT NOTES:
+- Each organization can have only ONE Smart Account
+- Smart Account domain must match your company email domain
+- Licenses remain active even when moved between virtual accounts

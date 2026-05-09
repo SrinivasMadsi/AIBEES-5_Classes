@@ -1,0 +1,33 @@
+KNOWLEDGE BASE: Licensing Domain FAQ
+CATEGORY: Licensing > General Questions
+
+Q: What is the difference between a Licensing Smart Account and a regular account?
+A: A Licensing Smart Account is a cloud-based license management system that
+provides centralized visibility and control over all software licenses. Unlike
+traditional PAK-based licensing, Smart Accounts allow instant license deployment,
+easy transfers, and automated compliance tracking.
+
+Q: How many virtual accounts can I create under a Licensing Smart Account?
+A: There is no hard limit on the number of virtual accounts. However, best practice
+recommends keeping it under 50 virtual accounts for manageable administration.
+Most enterprise customers use 5-15 virtual accounts aligned to business units.
+
+Q: What happens to licenses when a virtual account is deleted?
+A: All licenses in a deleted virtual account are automatically moved to the DEFAULT
+virtual account. No licenses are lost. You have 30 days to redistribute them
+before they are permanently assigned to DEFAULT.
+
+Q: Can I have multiple Smart Accounts for my organization?
+A: Typically, one Smart Account per organization is recommended. However, large
+enterprises with separate subsidiaries may have multiple Smart Accounts. Each
+Smart Account requires a unique domain identifier.
+
+Q: How do I handle license true-up for Licensing Smart Accounts?
+A: True-up occurs annually. The system automatically calculates the delta between
+contracted licenses and actual usage. Over-usage is billed at the true-up rate
+specified in your enterprise agreement.
+
+Q: What is the Licensing Smart Account activation process timeline?
+A: Standard activation: 24-48 business hours.
+   Express activation (for existing customers): 4-8 hours.
+   Bulk activation for M&A scenarios: 5-7 business days.

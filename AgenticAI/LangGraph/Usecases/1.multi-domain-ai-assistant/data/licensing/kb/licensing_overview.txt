@@ -1,0 +1,35 @@
+KNOWLEDGE BASE: Licensing Domain Overview
+CATEGORY: Licensing > Overview
+
+LICENSING DOMAIN OVERVIEW
+The Licensing domain manages all software license lifecycle activities including
+procurement, assignment, compliance, and renewal for the enterprise.
+
+KEY COMPONENTS:
+1. Smart Software Manager (SSM)
+   - Cloud portal for license management
+   - URL: software.cisco.com
+   - Supports Smart Licensing and Smart Licensing Using Policy (SLP)
+
+2. Smart Licensing Using Policy (SLP)
+   - Next-generation licensing model
+   - No license reservation required
+   - Usage reported via CSLU or direct cloud connection
+   - Enforced after 90-day evaluation period
+
+3. Cisco Smart License Utility (CSLU)
+   - On-premises proxy for air-gapped environments
+   - Synchronizes with SSM every 30 days
+   - Supports offline synchronization via file exchange
+
+LICENSE TYPES MANAGED:
+- Perpetual licenses (one-time purchase, no expiry)
+- Subscription licenses (annual or multi-year terms)
+- Term licenses (fixed duration, e.g., 3-year DNA Advantage)
+- Evaluation licenses (90-day trial, limited features)
+
+COMPLIANCE STATUS DEFINITIONS:
+- Authorized: License count meets or exceeds usage
+- Out of Compliance: Usage exceeds license count (grace period active)
+- Enforcement: Grace period expired, features may be restricted
+- Evaluation Expired: Trial license has passed 90-day limit

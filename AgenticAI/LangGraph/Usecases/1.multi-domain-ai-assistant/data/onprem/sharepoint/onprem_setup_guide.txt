@@ -1,0 +1,44 @@
+DOCUMENT: OnPrem Infrastructure Setup Guide
+SOURCE: SharePoint > OnPrem > Setup
+LAST UPDATED: 2024-03-05
+
+ONPREM INFRASTRUCTURE OVERVIEW
+The OnPrem domain covers all physical and virtual infrastructure hosted within
+the organization's own data centers, including servers, storage, networking,
+and virtualization layers.
+
+SUPPORTED ONPREM PLATFORMS:
+- VMware vSphere / vCenter (virtualization)
+- Microsoft Hyper-V (virtualization)
+- Cisco UCS (bare metal servers)
+- NetApp / Pure Storage (storage arrays)
+- Cisco Nexus (data center networking)
+
+ONPREM VIRTUAL ACCOUNT (Infrastructure Context):
+In the OnPrem domain, Virtual Account refers to virtualized compute resources:
+- VM Templates    : Pre-configured virtual machine images
+- Resource Pools  : Logical grouping of CPU/RAM/Storage
+- vApps           : Multi-tier application containers in vSphere
+
+SETUP STEPS FOR NEW ONPREM ENVIRONMENT:
+1. Rack and stack physical hardware
+2. Configure BIOS/UEFI settings and RAID
+3. Install hypervisor (vSphere ESXi or Hyper-V)
+4. Connect to vCenter / SCVMM management plane
+5. Configure networking (VLANs, vSwitches, NSX)
+6. Set up storage (NFS, iSCSI, or FC)
+7. Create resource pools and VM templates
+8. Onboard to monitoring (SolarWinds / Dynatrace)
+9. Register devices in CMDB (ServiceNow)
+
+PATCHING POLICY:
+- Critical patches: Applied within 72 hours of release
+- Standard patches: Monthly patch cycle (3rd Sunday)
+- Emergency patches: Immediate application with CAB approval
+- Patch compliance target: 95% within 30 days
+
+BACKUP POLICY:
+- VMs: Daily snapshots, retained for 30 days
+- Databases: Hourly log backups, daily full backups
+- Physical servers: Weekly full image backup
+- Offsite replication: Real-time to DR site

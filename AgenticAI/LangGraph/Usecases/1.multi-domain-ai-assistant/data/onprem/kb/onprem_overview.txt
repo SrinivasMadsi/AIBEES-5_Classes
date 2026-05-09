@@ -1,0 +1,36 @@
+KNOWLEDGE BASE: OnPrem Domain Overview
+CATEGORY: OnPrem > Overview
+
+ONPREM DOMAIN OVERVIEW
+The OnPrem domain manages all on-premises infrastructure assets including
+compute, storage, networking, and the associated accounts and access controls.
+
+DATA CENTERS MANAGED:
+- DC-HQ     : Primary data center, Headquarters (400 racks)
+- DC-EAST   : DR site, East Coast (150 racks)
+- DC-WEST   : DR site, West Coast (150 racks)
+
+INFRASTRUCTURE TIERS:
+- Tier 1 (Mission Critical): ERP, Core Banking, Patient Records
+- Tier 2 (Business Critical): CRM, HR Systems, Analytics
+- Tier 3 (Standard): Dev/Test, Internal Tools, Collaboration
+
+CMDB INTEGRATION:
+All OnPrem assets are registered in ServiceNow CMDB with:
+- Asset tag and serial number
+- Location (rack, row, data center)
+- Owner (team and individual)
+- Lifecycle status (Active, Decommissioned, In-Repair)
+- Associated CIs (applications, databases, network devices)
+
+CAPACITY MANAGEMENT:
+- CPU utilization target: below 70% average
+- Memory utilization target: below 75% average
+- Storage utilization target: below 80% (alert at 75%)
+- Network bandwidth target: below 60% average utilization
+
+DISASTER RECOVERY:
+- RTO (Recovery Time Objective): 4 hours for Tier 1
+- RPO (Recovery Point Objective): 1 hour for Tier 1
+- DR tests conducted: Quarterly (full failover test)
+- Last DR test result: Passed (Jan 2024)

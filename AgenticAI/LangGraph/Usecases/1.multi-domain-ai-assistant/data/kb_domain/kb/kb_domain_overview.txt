@@ -1,0 +1,40 @@
+KNOWLEDGE BASE: KB Domain Overview
+CATEGORY: KB Domain > Overview
+
+KB DOMAIN OVERVIEW
+The KB Domain team is responsible for building and maintaining the enterprise
+knowledge repository that serves 8,500+ employees and partners globally.
+
+KEY RESPONSIBILITIES:
+- Content strategy and governance
+- Author enablement and training
+- Search optimization and analytics
+- Platform administration (Confluence + ServiceNow KB)
+- Integration with IT Service Desk for article deflection
+
+KB AUTHOR ACCOUNT TYPES:
+- Smart Account (KB): Full author rights — create, edit, publish, archive
+- Virtual Account (KB): Reader account — search and view only
+- Admin Account: Platform administration, user management, analytics
+
+KNOWLEDGE LIFECYCLE:
+  Draft → Review → Approved → Published → Certified → Archived
+
+ONBOARDING NEW KB AUTHORS:
+1. Submit KB access request via ServiceNow
+2. Complete KB authoring training (2-hour e-learning)
+3. Assigned a mentor (existing Smart Account holder)
+4. First 3 articles reviewed and co-approved by mentor
+5. Full Smart Account rights granted after probation period
+
+SEARCH AND FINDABILITY:
+- Elasticsearch-powered full-text search
+- Tag taxonomy: 650+ controlled vocabulary tags
+- Related articles auto-suggested via ML model
+- Federated search integrated with MS Teams and Slack
+
+SLA FOR KB REQUESTS:
+- New article request: Published within 5 business days
+- Article update request: Processed within 2 business days
+- Broken link fix: Within 24 hours
+- Emergency advisory: Within 2 hours (Sev1 incidents)

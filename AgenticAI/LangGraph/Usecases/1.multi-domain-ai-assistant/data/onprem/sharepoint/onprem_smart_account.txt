@@ -1,0 +1,37 @@
+DOCUMENT: OnPrem Smart Account Guide
+SOURCE: SharePoint > OnPrem > Smart Accounts
+LAST UPDATED: 2024-01-20
+
+WHAT IS AN ONPREM SMART ACCOUNT?
+An OnPrem Smart Account in the context of on-premises infrastructure refers to
+a privileged local administrator account that has elevated access to on-premises
+hardware, servers, network devices, and data center equipment.
+
+This is DIFFERENT from a Licensing Smart Account — the OnPrem Smart Account is
+a LOCAL SYSTEM account, not a cloud-based license management entity.
+
+ONPREM SMART ACCOUNT TYPES:
+1. LOCAL ADMIN ACCOUNT    - Full local system access on a single device
+2. DOMAIN ADMIN ACCOUNT   - Full access across the Active Directory domain
+3. SERVICE ACCOUNT        - Used by applications/services to run processes
+4. BREAK-GLASS ACCOUNT    - Emergency access account, highly restricted
+
+ONPREM SMART ACCOUNT SECURITY POLICIES:
+- Passwords must be rotated every 30 days (auto-enforced via PAM tool)
+- MFA required for all smart account logins
+- All sessions recorded via CyberArk/Delinea session recording
+- Dual approval required for break-glass account activation
+- Accounts are disabled after 3 consecutive failed login attempts
+
+ACCESS REQUEST PROCESS:
+1. Submit access request in ServiceNow (RITM ticket)
+2. Manager approval required within 24 hours
+3. Security team reviews and provisions access
+4. Access is time-bound (max 8 hours per session)
+5. Session logs reviewed within 48 hours post-access
+
+ONPREM SMART ACCOUNT INVENTORY (Sample):
+- SVC-SQL-PROD     : SQL Server service account (Production)
+- SVC-BACKUP-01    : Backup agent service account
+- ADM-DATACENTER   : Data center admin account
+- BRK-EMERGENCY    : Break-glass emergency account

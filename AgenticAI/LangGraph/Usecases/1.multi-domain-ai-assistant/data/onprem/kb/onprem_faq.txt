@@ -1,0 +1,32 @@
+KNOWLEDGE BASE: OnPrem Domain FAQ
+CATEGORY: OnPrem > General Questions
+
+Q: What is the difference between an OnPrem Smart Account and a Licensing Smart Account?
+A: They are completely different concepts. An OnPrem Smart Account is a privileged
+local administrator account for accessing on-premises hardware and systems. A
+Licensing Smart Account is a cloud-based portal for managing software licenses.
+Do not confuse these two — they belong to separate domains.
+
+Q: How do I request access to an OnPrem Smart Account?
+A: Submit a RITM ticket in ServiceNow with justification. Your manager approves
+within 24 hours, then the security team provisions time-bound access (max 8 hours).
+All sessions are recorded via CyberArk.
+
+Q: What is an OnPrem Virtual Account in the infrastructure context?
+A: In OnPrem, a Virtual Account refers to virtualized compute resources such as
+VMware resource pools, VM templates, or vApps. This is different from a
+Licensing Virtual Account which is a license container.
+
+Q: How many physical servers are currently in the OnPrem inventory?
+A: Query the CMDB database for current counts. As of last audit: 240 physical
+servers across 3 data centers (HQ, DR-East, DR-West).
+
+Q: What monitoring tools are used for OnPrem infrastructure?
+A: Primary: SolarWinds NPM for network, Dynatrace for application performance.
+Secondary: vCenter performance dashboards, Cisco Intersight for UCS hardware.
+Alerting: PagerDuty integration for Sev1/Sev2 alerts.
+
+Q: What is the SLA for OnPrem server provisioning?
+A: Standard VM provisioning: 4 business hours via self-service portal.
+Physical server provisioning: 5-10 business days including procurement.
+Template-based deployment: Under 30 minutes via automation pipeline.

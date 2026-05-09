@@ -1,0 +1,26 @@
+# ── LangGraph & LangChain ─────────────────────────────────────
+langgraph>=0.2.0
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+
+# ── Google AI (Vertex AI + Generative AI) ─────────────────────
+langchain-google-genai>=1.0.0
+langchain-google-vertexai>=1.0.0
+google-generativeai>=0.8.0
+google-cloud-aiplatform>=1.50.0
+
+# ── Vector Store ──────────────────────────────────────────────
+faiss-cpu>=1.7.4
+
+# ── Database ──────────────────────────────────────────────────
+SQLAlchemy>=2.0.0
+
+# ── Environment ───────────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Observability ─────────────────────────────────────────────
+langfuse>=2.0.0
+
+# ── Graph Visualization ───────────────────────────────────────
+grandalf>=0.7
