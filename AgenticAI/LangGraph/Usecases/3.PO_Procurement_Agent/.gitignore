@@ -1,0 +1,39 @@
+# ─── Environment ─────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.sqlite
+*.db
+
+# ─── Node / Frontend ─────────────────────────────────────────
+node_modules/
+dist/
+build/
+.vite/
+.next/
+.turbo/
+
+# ─── IDE ─────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── OS ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Project-specific ────────────────────────────────────────
+backend/logs/
+backend/.langgraph/
+*.log

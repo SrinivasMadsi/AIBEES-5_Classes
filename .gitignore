@@ -5,3 +5,4 @@ GenAI/Incident_summarization_lab/__pycache__
 GenAI/Enterprise_RAG_Setup/.rag_config.json
 GenAI/Enterprise_RAG_Setup/.env
 __pycache__
+AgenticAI/LangGraph/Usecases/3.PO_Procurement_Agent/.env

@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "po-agent-backend"
+version = "0.1.0"
+description = "Intelligent Purchase Order Agent — backend"
+authors = ["AIBees Academy"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+
+# Existing dependencies you already have
+langchain = "0.3.27"
+python-dotenv = "1.1.1"
+langchain-google-genai = "2.1.12"
+langchain-google-vertexai = ">=2.0.12"
+langchain-community = "0.3.27"
+langgraph = "0.3.34"
+langfuse = ">=4.5.1,<5.0.0"
+google-cloud-aiplatform = "1.94.0"
+fastapi = "0.115.0"
+uvicorn = "0.34.0"
+python-multipart = ">=0.0.22,<0.0.23"
+
+# New dependencies needed for this project
+sqlalchemy = "2.0.36"
+psycopg2-binary = "2.9.10"
+psycopg = {version = "3.2.3", extras = ["binary", "pool"]}
+langgraph-checkpoint-postgres = "2.0.7"
+sse-starlette = "2.1.3"
+pydantic = "^2.9.2"
+pydantic-settings = ">=2.10.1,<2.11.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.0"
+ruff = "^0.7.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"

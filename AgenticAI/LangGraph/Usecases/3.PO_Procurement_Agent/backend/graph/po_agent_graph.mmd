@@ -1,0 +1,38 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	intake(intake)
+	enrichment(enrichment)
+	vendor_mapping(vendor_mapping)
+	tax_calc(tax_calc)
+	assembler(assembler)
+	inventory_check(inventory_check)
+	price_check(price_check)
+	policy_check(policy_check)
+	schema_check(schema_check)
+	critic(critic)
+	self_correction(self_correction)
+	finalize(finalize)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> intake;
+	assembler --> inventory_check;
+	critic -.-> finalize;
+	critic -.-> self_correction;
+	enrichment --> vendor_mapping;
+	intake --> enrichment;
+	inventory_check --> price_check;
+	policy_check --> schema_check;
+	price_check --> policy_check;
+	schema_check --> critic;
+	self_correction --> tax_calc;
+	tax_calc --> assembler;
+	vendor_mapping --> tax_calc;
+	critic -.-> __end__;
+	finalize --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
