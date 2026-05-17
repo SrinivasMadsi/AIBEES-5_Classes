@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "sop-mcp"
+version = "0.1.0"
+description = "MCP server exposing SOP documents for AI_Onboarding_Platform"
+authors = ["AIBees Academy"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mcp = ">=1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
